@@ -9,3 +9,43 @@
 body {
     font-family: Lato, sans-serif;
 }
+
+/* header */
+
+#hero-image {
+    width: 100%;
+    height: 192px;
+    color: white;
+    background-color: gray;
+}
+
+h1 {
+    padding: 32px 0 0 32px;
+    font-size: 350%;
+}
+
+#hero-image h3 {
+    padding: 0 0 0 64px;
+}
+
+/* navigation */
+
+#navigation {
+    width: 100%;
+    height: 32px;
+    background-color: #555555;
+    color: white;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 25%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+    line-height: 32px;
+}
