@@ -17,6 +17,8 @@ body {
     height: 192px;
     color: white;
     background-color: gray;
+    /* hero image from shutterstock */
+    background-image: url("../images/hero-image.jpg");
 }
 
 h1 {
@@ -48,4 +50,8 @@ nav a {
     color: white;
     font-size: 130%;
     line-height: 32px;
+}
+
+#nav-selected {
+    border-bottom: 1px solid white;
 }
