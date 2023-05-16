@@ -12,6 +12,12 @@ body {
 
 /* header */
 
+#title {
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
 #hero-image {
     width: 100%;
     height: 192px;
@@ -26,8 +32,8 @@ h1 {
     font-size: 350%;
 }
 
-#hero-image h3 {
-    padding: 0 0 0 64px;
+#title h3 {
+    padding: 0 0 16px 64px;
 }
 
 /* navigation */
