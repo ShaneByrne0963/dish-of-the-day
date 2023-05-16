@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 200%;
+    font-size: 260%;
 }
 
 /* header */
@@ -70,7 +70,32 @@ nav a {
 
 /* description of site */
 
-.section-main {
+.page-description {
+    display: flex;
     width: 100%;
-    padding: 32px;
+    height: 480px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.page-description p {
+    font-size: 150%;
+}
+
+.description-text {
+    width: 60%;
+    padding: 160px 32px;
+}
+
+.description-image {
+    height: 100%;
+    padding: 0 16px;
+}
+
+.left-about {
+    text-align: left;
+}
+
+.right-about {
+    text-align: right;
 }
