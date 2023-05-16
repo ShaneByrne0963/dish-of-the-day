@@ -18,7 +18,7 @@ body {
     color: white;
     background-color: gray;
     /* hero image from shutterstock */
-    background-image: url("../images/hero-image.jpg");
+    background: url("../images/hero-image.jpg") no-repeat center center;
 }
 
 h1 {
