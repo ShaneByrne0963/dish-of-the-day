@@ -139,6 +139,13 @@ footer p {
     color: white;
 }
 
+#social-media>a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 16px;
+}
+
 #copyright {
     float: right;
 }
