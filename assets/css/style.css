@@ -64,6 +64,10 @@ nav a {
     line-height: 32px;
 }
 
+nav a:hover {
+    font-weight: bold;
+}
+
 #nav-selected {
     border-bottom: 1px solid white;
 }
