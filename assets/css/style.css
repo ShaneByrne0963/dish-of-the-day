@@ -174,11 +174,15 @@ footer p {
     position: relative;
 }
 
-#daily-menu h3 {
+#daily-menu p {
     width: 100%;
-    font-size: 150%;
+    font-size: 200%;
     background-color: black;
     color: white;
     position: absolute;
     bottom: 0;
+}
+
+#daily-menu p:hover {
+    font-weight: bold;
 }
