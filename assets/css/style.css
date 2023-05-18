@@ -171,12 +171,14 @@ footer p {
     height: 448px;
     margin: 32px;
     background-color: #9a9a9a;
+    position: relative;
 }
 
 #daily-menu h3 {
+    width: 100%;
     font-size: 150%;
     background-color: black;
     color: white;
-    position: relative;
-    top: 416px;
+    position: absolute;
+    bottom: 0;
 }
