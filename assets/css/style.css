@@ -124,6 +124,11 @@ nav a:hover {
     margin: 16px auto 0 auto;
 }
 
+#to-menu:hover {
+    color: #9a9a9a;
+    background-color: white;
+}
+
 #to-top {
     font-size: 80%;
 }
