@@ -169,15 +169,16 @@ footer p {
     display: inline-block;
     width: 20%;
     height: 448px;
-    margin: 32px;
+    margin: 128px 32px;
     background-color: #9a9a9a;
     position: relative;
+    overflow: hidden;
 }
 
 #daily-menu p {
     width: 100%;
     font-size: 200%;
-    background-color: black;
+    background-color: #9a9a9a;
     color: white;
     position: absolute;
     bottom: 0;
@@ -185,4 +186,15 @@ footer p {
 
 #daily-menu p:hover {
     font-weight: bold;
+}
+
+.image-wide {
+    height: 100%;
+}
+
+.image-long {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
