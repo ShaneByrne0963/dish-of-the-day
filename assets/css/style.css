@@ -168,11 +168,16 @@ footer p {
 #daily-menu>div {
     display: inline-block;
     width: 20%;
-    height: 448px;
+    height: px;
     margin: 128px 32px;
     background-color: #9a9a9a;
-    position: relative;
+}
+
+.course-image {
+    width: 100%;
+    height: 448px;
     overflow: hidden;
+    position: relative;
 }
 
 #daily-menu p {
