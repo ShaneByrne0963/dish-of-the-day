@@ -168,7 +168,7 @@ footer p {
 #daily-menu>div {
     display: inline-block;
     width: 20%;
-    height: px;
+    height: 896px;
     margin: 128px 32px;
     background-color: #9a9a9a;
 }
@@ -180,13 +180,13 @@ footer p {
     position: relative;
 }
 
-#daily-menu p {
+#daily-menu details {
     width: 100%;
     font-size: 200%;
     background-color: #9a9a9a;
     color: white;
     position: absolute;
-    bottom: 0;
+    top: 448px;
 }
 
 #daily-menu p:hover {
