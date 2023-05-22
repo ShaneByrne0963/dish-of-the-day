@@ -190,7 +190,7 @@ footer p {
     top: 448px;
 }
 
-#daily-menu details:hover {
+#daily-menu summary:hover {
     font-weight: bold;
 }
 
