@@ -168,8 +168,8 @@ footer p {
 #daily-menu>div {
     display: inline-block;
     width: 20%;
-    height: 896px;
-    margin: 128px 32px;
+    height: 448px;
+    margin: 128px 32px 320px 32px;
     background-color: #9a9a9a;
     position: relative;
 }
@@ -190,7 +190,7 @@ footer p {
     top: 448px;
 }
 
-#daily-menu p:hover {
+#daily-menu details:hover {
     font-weight: bold;
 }
 
@@ -205,6 +205,11 @@ footer p {
     left: 0;
 }
 
+details ul {
+    margin: 32px 0 32px 40px;
+}
+
 details li {
     text-align: left;
+    margin: 16px 0;
 }
