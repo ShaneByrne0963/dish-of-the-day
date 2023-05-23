@@ -223,3 +223,13 @@ details li {
     text-align: left;
     margin: 16px 0;
 }
+
+/* recipes */
+
+#recipe>div {
+    padding: 32px;
+}
+
+#recipe p {
+    font-size: 150%;
+}
