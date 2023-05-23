@@ -224,12 +224,32 @@ details li {
     margin: 16px 0;
 }
 
-/* recipes */
+/* recipe introduction */
 
 #recipe>div {
-    padding: 32px;
+    padding: 16px 32px;
 }
 
 #recipe p {
     font-size: 150%;
+}
+
+/* recipe ingredients */
+
+#recipe img {
+    float: right;
+    width: 40%;
+}
+
+#recipe h3 {
+    font-size: 180%;
+}
+
+#recipe ul {
+    margin-bottom: 32px;
+}
+
+#recipe li {
+    font-size: 150%;
+    margin: 8px 32px;
 }
