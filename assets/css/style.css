@@ -194,6 +194,16 @@ footer p {
     font-weight: bold;
 }
 
+#daily-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#daily-menu a:hover {
+    font-weight: bold;
+    text-decoration: 2px underline;
+}
+
 .image-wide {
     height: 100%;
 }
