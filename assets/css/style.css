@@ -240,7 +240,7 @@ details li {
     position: relative;
 }
 
-#recipe img {
+#ingredients img {
     position: absolute;
     right: 0;
     height: 100%;
@@ -248,10 +248,6 @@ details li {
 
 #recipe h3 {
     font-size: 180%;
-}
-
-#recipe ul {
-    margin-bottom: 32px;
 }
 
 #recipe li {
