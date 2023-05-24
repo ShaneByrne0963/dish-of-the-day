@@ -281,3 +281,16 @@ details li {
 #recipe-request p {
     font-size: 150%;
 }
+
+#request-form {
+    height: 640px;
+}
+
+#request-form>div {
+    width: 60%;
+    height: 100%;
+    background-color: #9a9a9a;
+    /* to align to center of page */
+    margin: 0 auto;
+    border-radius: 16px;
+}
