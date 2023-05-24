@@ -286,7 +286,7 @@ details li {
     height: 640px;
 }
 
-#request-form>div {
+#request-form>form {
     width: 60%;
     height: 100%;
     background-color: #9a9a9a;
