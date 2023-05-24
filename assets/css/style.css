@@ -271,3 +271,13 @@ details li {
     margin-top: 32px;
     font-size: 100%;
 }
+
+/* recipe request */
+
+#recipe-request>div {
+    margin: 32px;
+}
+
+#recipe-request p {
+    font-size: 150%;
+}
