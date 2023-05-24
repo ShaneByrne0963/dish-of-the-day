@@ -246,6 +246,11 @@ details li {
     height: 100%;
 }
 
+#recipe ul,
+#recipe ol {
+    padding-left: 32px;
+}
+
 #recipe h3 {
     font-size: 180%;
 }
