@@ -227,7 +227,7 @@ details li {
 /* recipe introduction */
 
 #recipe>div {
-    padding: 16px 32px;
+    margin: 32px;
 }
 
 #recipe p {
@@ -236,9 +236,14 @@ details li {
 
 /* recipe ingredients */
 
+#ingredients {
+    position: relative;
+}
+
 #recipe img {
-    float: right;
-    width: 40%;
+    position: absolute;
+    right: 0;
+    height: 100%;
 }
 
 #recipe h3 {
@@ -251,5 +256,5 @@ details li {
 
 #recipe li {
     font-size: 150%;
-    margin: 8px 32px;
+    margin: 16px 32px;
 }
