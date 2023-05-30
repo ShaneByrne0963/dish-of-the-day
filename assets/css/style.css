@@ -305,7 +305,7 @@ details li {
 .form-layer {
     position: relative;
     text-align: left;
-    padding: 32px 32px 0 32px;
+    padding: 32px 32px 16px 32px;
 }
 
 .form-left {
