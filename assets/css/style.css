@@ -317,7 +317,7 @@ details li {
     display: inline-block;
     width: 45%;
     position: absolute;
-    right: 0;
+    right: 32px;
 }
 
 label {
@@ -330,7 +330,7 @@ label {
 }
 
 .input-text {
-    width: 90%;
+    width: 96%;
     font-size: 120%;
-    padding: 8px 4px;
+    padding: 8px 2%;
 }
