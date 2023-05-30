@@ -332,11 +332,14 @@ label {
 .input-text {
     width: 96%;
     font-size: 120%;
+    font-family: Lato, sans-serif;
     padding: 8px 2%;
 }
 
 textarea {
     resize: none;
+    font-size: 120%;
+    font-family: Lato, sans-serif;
 }
 
 .form-button {
