@@ -305,27 +305,6 @@ details li {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-
-/*
-.form-layer {
-    position: relative;
-    text-align: left;
-    padding: 32px 32px 16px 32px;
-}
-
-.form-left {
-    display: inline-block;
-    width: 45%;
-}
-
-.form-right {
-    display: inline-block;
-    width: 45%;
-    position: absolute;
-    right: 32px;
-}
-*/
-
 label {
     font-size: 150%;
     margin-top: 32px;
@@ -347,6 +326,37 @@ textarea {
     font-size: 120%;
     font-family: Lato, sans-serif;
 }
+
+/* individual form input elements */
+
+#form-fname {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#form-lname {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#form-email {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+/* won't do css for other 3 cells because:
+    1 - it is unnecessary
+    2 - it reduces code
+    3 - it will work better for media queries when displaying on mobile
+*/
+
+/* submit and clear form buttons */
 
 .form-button {
     padding: 16px 0;
