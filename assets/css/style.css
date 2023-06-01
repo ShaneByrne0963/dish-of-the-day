@@ -297,12 +297,13 @@ details li {
 }
 
 #form-details {
-    width: 100%;
     height: 85%;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    padding: 32px;
+    text-align: left;
 }
 
 label {
@@ -349,12 +350,6 @@ textarea {
     grid-row-start: 3;
     grid-row-end: 4;
 }
-
-/* won't do css for other 3 cells because:
-    1 - it is unnecessary
-    2 - it reduces code
-    3 - it will work better for media queries when displaying on mobile
-*/
 
 /* submit and clear form buttons */
 
