@@ -169,7 +169,7 @@ footer p {
     display: inline-block;
     width: 20%;
     height: 448px;
-    margin: 128px 32px 320px 32px;
+    margin: 128px 32px;
     background-color: #9a9a9a;
     position: relative;
 }
@@ -187,7 +187,7 @@ footer p {
     background-color: #9a9a9a;
     color: white;
     position: absolute;
-    top: 448px;
+    top: 0;
 }
 
 #daily-menu summary:hover {
