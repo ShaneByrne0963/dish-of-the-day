@@ -236,12 +236,22 @@ details li {
 
 /* recipe ingredients and method */
 
-#ingredients {
+#ingredients-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 5fr 1fr;
+    grid-template-rows: 32px 1fr;
+}
+
+.ingredients {
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #ingredients-image {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
     background: url("../images/recipe-eggs-benedict.jpeg") no-repeat center center;
 }
 
