@@ -252,12 +252,11 @@ details li {
     grid-row-end: 3;
 }
 
-#ingredients-image {
+.ingredients-image {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    background: url("../images/recipe-eggs-benedict.jpeg") no-repeat center center;
 }
 
 #recipe ul,
@@ -272,6 +271,16 @@ details li {
 #recipe li {
     font-size: 150%;
     margin: 16px 32px;
+}
+
+/* images for each recipe */
+
+#image-eggs-ben {
+    background: url("../images/recipe-eggs-benedict.jpeg") no-repeat center center;
+}
+
+#image-pancakes {
+    background: url("../images/recipe-pancakes.jpeg") no-repeat center center;
 }
 
 /* recipe conclusion */
