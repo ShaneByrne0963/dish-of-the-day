@@ -287,6 +287,10 @@ details li {
     background-image: url("../images/recipe-pancakes.jpeg");
 }
 
+#image-avo-toast {
+    background-image: url("../images/recipe-avocado-toast.jpeg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
