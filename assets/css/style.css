@@ -238,11 +238,11 @@ details li {
 
 #ingredients {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr 5fr 1fr;
 }
 
-#ingredients-image>img {
-    height: 100%;
+#ingredients-image {
+    background: url("../images/recipe-eggs-benedict.jpeg") no-repeat center center;
 }
 
 #recipe ul,
