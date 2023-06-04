@@ -237,12 +237,11 @@ details li {
 /* recipe ingredients and method */
 
 #ingredients {
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
 }
 
-#ingredients img {
-    position: absolute;
-    right: 0;
+#ingredients-image>img {
     height: 100%;
 }
 
