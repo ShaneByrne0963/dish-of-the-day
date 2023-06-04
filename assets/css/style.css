@@ -291,6 +291,10 @@ details li {
     background-image: url("../images/recipe-avocado-toast.jpeg");
 }
 
+#image-blt {
+    background-image: url("../images/recipe-blt.jpg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
