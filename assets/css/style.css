@@ -304,6 +304,10 @@ details li {
     background-image: url("../images/recipe-soup.webp");
 }
 
+#image-tuna-melt {
+    background-image: url("../images/recipe-tuna-melt.jpg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
