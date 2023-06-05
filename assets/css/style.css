@@ -295,6 +295,10 @@ details li {
     background-image: url("../images/recipe-blt.jpg");
 }
 
+#image-soup {
+    background-image: url("../images/recipe-soup.webp");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
