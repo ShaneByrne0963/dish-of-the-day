@@ -258,7 +258,7 @@ details li {
     min-height: 480px;
 }
 
-/* for recipe pages containing large ingredients lists that will be divided */
+/* for recipe pages containing large ingredients lists that will be divided. Can fit up to 3 ingredient groups */
 #ingredients-large-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr;
@@ -282,6 +282,16 @@ details li {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.ingredients-large-image {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
