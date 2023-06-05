@@ -496,3 +496,7 @@ textarea {
     font-size: 150%;
     margin-bottom: 32px;
 }
+
+#thanks-video {
+    text-align: center;
+}
