@@ -277,6 +277,10 @@ details li {
     grid-row-end: 4;
 }
 
+.ingredients-divided>p {
+    font-weight: bold;
+}
+
 .ingredients-image {
     grid-column-start: 3;
     grid-column-end: 4;
