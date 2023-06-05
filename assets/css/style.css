@@ -258,9 +258,23 @@ details li {
     min-height: 480px;
 }
 
+/* for recipe pages containing large ingredients lists that will be divided */
+#ingredients-large-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 32px 32px 1fr;
+    min-height: 480px;
+}
+
 .ingredients {
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+/* ingredients divided into 3 categories will have headings, so they will be moved down 1 row to make room */
+.ingredients-divided {
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 .ingredients-image {
