@@ -197,6 +197,7 @@ footer p {
 
 #daily-menu summary:hover {
     font-weight: bold;
+    cursor: pointer;
 }
 
 details>div {
