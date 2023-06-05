@@ -277,6 +277,7 @@ details li {
     grid-row-end: 4;
 }
 
+.ingredients>p,
 .ingredients-divided>p {
     font-weight: bold;
 }
