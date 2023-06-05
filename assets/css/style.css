@@ -313,6 +313,10 @@ details li {
     background-image: url("../images/recipe-tuna-melt.jpg");
 }
 
+#image-chilli {
+    background-image: url("../images/recipe-chilli.jpeg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
