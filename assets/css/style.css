@@ -199,6 +199,10 @@ footer p {
     font-weight: bold;
 }
 
+details>div {
+    height: 378px;
+}
+
 #daily-menu a {
     color: white;
     text-decoration: none;
