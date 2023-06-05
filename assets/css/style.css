@@ -321,6 +321,10 @@ details li {
     background-image: url("../images/recipe-bolognese.jpg");
 }
 
+#image-steak-sandwich {
+    background-image: url("../images/recipe-steak-sandwich.jpeg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
