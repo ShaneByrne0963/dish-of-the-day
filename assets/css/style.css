@@ -317,6 +317,11 @@ details li {
     background-image: url("../images/recipe-chilli.jpeg");
 }
 
+#image-bolognese {
+    background-image: url("../images/recipe-bolognese.jpeg");
+    background-position: center bottom;
+}
+
 /* recipe conclusion */
 
 #recipe-end {
