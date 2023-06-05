@@ -239,6 +239,11 @@ details li {
     font-size: 150%;
 }
 
+#recipe #requested-recipe {
+    font-size: 100%;
+    margin: 16px 0 32px 64px;
+}
+
 /* recipe ingredients and method */
 
 #ingredients-grid {
