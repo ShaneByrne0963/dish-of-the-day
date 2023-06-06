@@ -87,7 +87,17 @@ nav a:hover {
     padding-top: 32px;
 }
 
-.page-description p {
+.page-description-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.page-description p,
+.page-description-reverse p {
     font-size: 150%;
 }
 
