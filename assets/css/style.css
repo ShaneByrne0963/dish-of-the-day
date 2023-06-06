@@ -571,4 +571,9 @@ textarea {
         height: auto;
         padding: 32px 0;
     }
+
+    /* normal recipes */
+    #ingredients-grid {
+        grid-template-columns: 2fr 0 5fr 0;
+    }
 }
