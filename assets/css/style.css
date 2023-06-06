@@ -576,4 +576,25 @@ textarea {
     #ingredients-grid {
         grid-template-columns: 2fr 0 5fr 0;
     }
+
+    /* recipes with multiple ingredients lists */
+    #ingredients-large-grid {
+        grid-template-columns: 3fr 1fr 5fr 1fr;
+        grid-template-rows: 32px 32px 1fr 1fr 1fr;
+    }
+
+    .ingredients-divided {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .ingredients-large-image {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
 }
