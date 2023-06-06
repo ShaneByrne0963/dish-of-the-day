@@ -532,7 +532,6 @@ textarea {
     .page-description {
         display: block;
         height: auto;
-        padding: 0;
     }
 
     .page-description-reverse {
@@ -540,6 +539,12 @@ textarea {
         height: auto;
         padding: 0;
         flex-direction: none;
+    }
+
+    .description-text {
+        padding: 32px 0;
+        width: 100%;
+        text-align: left;
     }
 
     .description-image {
