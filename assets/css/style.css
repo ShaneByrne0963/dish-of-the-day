@@ -547,6 +547,11 @@ textarea {
         text-align: left;
     }
 
+    .description-text>p,
+    .description-text>h2 {
+        padding: 0 8px;
+    }
+
     .description-image {
         width: 100%;
         height: auto;
