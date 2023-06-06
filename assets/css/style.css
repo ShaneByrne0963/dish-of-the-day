@@ -379,13 +379,13 @@ details li {
 /* recipe conclusion */
 
 #recipe-end {
-    padding: 64px 0;
+    padding: 32px 0;
     text-align: center;
 }
 
 #recipe-end>p {
-    margin-top: 32px;
-    font-size: 100%;
+    margin-top: 16px;
+    font-size: 120%;
 }
 
 /* recipe request */
