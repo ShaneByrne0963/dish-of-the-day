@@ -604,4 +604,10 @@ textarea {
         background-position: center center;
         background-size: cover;
     }
+
+    /* recipe request form */
+
+    #request-form>form {
+        width: 100%;
+    }
 }
