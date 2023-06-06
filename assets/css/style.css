@@ -362,6 +362,10 @@ details li {
     background-image: url("../images/recipe-orange-cake.jpeg");
 }
 
+#image-cookies {
+    background-image: url("../images/recipe-cookies.jpeg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
