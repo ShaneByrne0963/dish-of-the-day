@@ -281,12 +281,6 @@ details li {
     grid-row-end: 3;
 }
 
-/* ingredients divided into 3 categories will have headings, so they will be moved down 1 row to make room */
-.ingredients-divided {
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
 .ingredients>p,
 .ingredients-divided>p {
     font-weight: bold;
@@ -525,7 +519,16 @@ textarea {
 
 /**** MEDIA QUERIES ****/
 
-/* for larger to medium screen sizes */
+/* for rearranging the grid cells for the large ingredients recipes */
+@media screen and (min-width: 1201px) {
+
+    .ingredients-divided {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+
+/* for large to medium screen sizes */
 @media screen and (max-width: 1300px) {
 
     /* menu */
@@ -580,7 +583,7 @@ textarea {
     /* recipes with multiple ingredients lists */
     #ingredients-large-grid {
         grid-template-columns: 3fr 1fr 5fr 1fr;
-        grid-template-rows: 32px 32px 1fr 1fr 1fr;
+        grid-template-rows: 64px 1fr 1fr 1fr;
     }
 
     .ingredients-divided {
@@ -592,7 +595,7 @@ textarea {
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 1;
-        grid-row-end: 6;
+        grid-row-end: 5;
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
