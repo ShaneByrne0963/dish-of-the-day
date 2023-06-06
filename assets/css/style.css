@@ -145,7 +145,9 @@ nav a:hover {
 }
 
 #to-top {
+    display: inline-block;
     font-size: 80%;
+    margin-top: 32px;
 }
 
 /* footer */
@@ -609,5 +611,35 @@ textarea {
 
     #request-form>form {
         width: 100%;
+    }
+}
+
+/* for small screen sizes */
+@media screen and (max-width: 800px) {
+
+    /* home page */
+    .page-description p,
+    .page-description-reverse p {
+        font-size: 120%;
+    }
+
+    /* end of page description */
+    #description-end {
+        font-size: 100%;
+        width: 90%;
+        margin: 0 auto 32px auto;
+    }
+
+    #to-top {
+        font-size: 100%;
+        margin: 32px 0 16px 0;
+    }
+
+    footer>div {
+        font-size: 100%;
+    }
+
+    footer p {
+        padding: 48px 8px;
     }
 }
