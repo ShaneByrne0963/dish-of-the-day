@@ -272,7 +272,7 @@ details li {
 #ingredients-large-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr;
-    grid-template-rows: 32px 32px 1fr;
+    grid-template-rows: 64px 1fr;
     min-height: 480px;
 }
 
@@ -300,7 +300,7 @@ details li {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -523,8 +523,8 @@ textarea {
 @media screen and (min-width: 1201px) {
 
     .ingredients-divided {
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
 }
 
