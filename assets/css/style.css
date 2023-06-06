@@ -354,6 +354,14 @@ details li {
     background-image: url("../images/recipe-steak-sandwich.jpeg");
 }
 
+#image-brownie {
+    background-image: url("../images/recipe-brownies.jpeg");
+}
+
+#image-orange-cake {
+    background-image: url("../images/recipe-orange-cake.jpeg");
+}
+
 /* recipe conclusion */
 
 #recipe-end {
