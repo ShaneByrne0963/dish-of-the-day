@@ -522,3 +522,29 @@ textarea {
 #thanks-video {
     text-align: center;
 }
+
+/**** MEDIA QUERIES ****/
+
+/* for larger to medium screen sizes */
+@media screen and (max-width: 1200px) {
+
+    /* home page */
+    .page-description {
+        display: block;
+        height: auto;
+        padding: 0;
+    }
+
+    .page-description-reverse {
+        display: block;
+        height: auto;
+        padding: 0;
+        flex-direction: none;
+    }
+
+    .description-image {
+        width: 100%;
+        height: auto;
+        padding: 32px 0;
+    }
+}
