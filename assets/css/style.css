@@ -526,6 +526,16 @@ textarea {
 /**** MEDIA QUERIES ****/
 
 /* for larger to medium screen sizes */
+@media screen and (max-width: 1300px) {
+
+    /* menu */
+    #daily-menu>div {
+        width: 40%;
+        margin: 64px 32px;
+    }
+}
+
+/* for medium screen sizes */
 @media screen and (max-width: 1200px) {
 
     /* home page */
