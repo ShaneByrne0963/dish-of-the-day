@@ -576,6 +576,8 @@ textarea {
     .description-image {
         width: 100%;
         height: auto;
+        max-height: 480px;
+        overflow: hidden;
         padding: 32px 0;
     }
 
