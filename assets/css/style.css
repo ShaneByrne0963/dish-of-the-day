@@ -227,15 +227,8 @@ details>div {
     text-decoration: 2px underline;
 }
 
-.image-wide {
+.course-image {
     height: 100%;
-}
-
-.image-long {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 details ul {
