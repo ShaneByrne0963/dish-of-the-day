@@ -161,7 +161,7 @@ footer>div {
 }
 
 footer p {
-    padding: 48px 32px;
+    padding: 48px 0 48px 32px;
     display: inline-block;
     color: white;
 }
@@ -170,7 +170,7 @@ footer p {
     display: inline-block;
     text-decoration: none;
     color: white;
-    margin: 0 16px;
+    margin-right: 32px;
 }
 
 #copyright {
@@ -639,7 +639,20 @@ textarea {
 
     footer p {
         font-size: 80%;
-        padding: 48px 8px;
+        display: block;
+        padding: 16px 8px 0 8px;
+        text-align: center;
+    }
+
+    #social-media {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #social-media>a {
+        /* padding: 0 10%; */
+        margin: 0;
     }
 
     #copyright {
