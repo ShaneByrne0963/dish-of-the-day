@@ -548,25 +548,24 @@ textarea {
     /* home page */
     .page-description {
         display: block;
-        margin: 0;
         height: auto;
     }
 
     .page-description-reverse {
         display: block;
         height: auto;
-        margin: 0;
-        flex-direction: none;
     }
 
     .description-text {
-        padding: 32px 0;
+        display: block;
+        padding: 0;
+        margin: 32px 0;
         width: 100%;
         text-align: left;
     }
 
     .description-text>h2 {
-        padding: 32px 8px 0 8px;
+        padding: 0 8px;
     }
 
     .description-text>p {
