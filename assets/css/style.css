@@ -634,8 +634,13 @@ textarea {
     /* end of page description */
     #description-end {
         font-size: 100%;
-        width: 90%;
-        margin: 0 auto 32px auto;
+        width: auto;
+        margin: 32px 8px;
+    }
+
+    #description-end>h3,
+    #description-end p {
+        text-align: left;
     }
 
     #to-top {
