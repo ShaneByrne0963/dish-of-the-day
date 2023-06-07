@@ -669,5 +669,6 @@ textarea {
         font-size: 50%;
         padding: 8px;
         bottom: 0;
+        right: 8px;
     }
 }
