@@ -194,8 +194,7 @@ footer p {
 }
 
 .course-image {
-    width: 100%;
-    height: 448px;
+    height: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -673,7 +672,16 @@ textarea {
     }
 
     /* menu */
+    #daily-menu {
+        padding: 0;
+    }
+
     #daily-menu>div {
-        margin: 16px;
+        height: 320px;
+        margin: 32px 16px;
+    }
+
+    #daily-menu details {
+        font-size: 150%;
     }
 }
