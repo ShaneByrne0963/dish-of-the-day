@@ -106,7 +106,7 @@ nav a:hover {
     padding: 160px 32px;
 }
 
-.description-image {
+.description-image>img {
     height: 100%;
     padding: 0 32px;
 }
@@ -574,11 +574,15 @@ textarea {
     }
 
     .description-image {
-        width: 100%;
-        height: auto;
+        display: block;
         max-height: 480px;
         overflow: hidden;
+    }
+
+    .description-image>img {
+        width: 100%;
         padding: 32px 0;
+        margin: auto;
     }
 
     /* normal recipes */
