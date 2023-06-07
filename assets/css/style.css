@@ -684,4 +684,8 @@ textarea {
     #daily-menu details {
         font-size: 150%;
     }
+
+    details>div {
+        height: 259px;
+    }
 }
