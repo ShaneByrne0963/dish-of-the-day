@@ -671,4 +671,9 @@ textarea {
         bottom: 0;
         right: 8px;
     }
+
+    /* menu */
+    #daily-menu>div {
+        margin: 16px;
+    }
 }
