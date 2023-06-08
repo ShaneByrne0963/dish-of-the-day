@@ -404,6 +404,10 @@ label,
     font-size: 80%;
 }
 
+#form-buttons-layer {
+    padding: 32px 0;
+}
+
 .small-text {
     font-size: 70%;
 }
