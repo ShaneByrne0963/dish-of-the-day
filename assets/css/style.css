@@ -58,12 +58,12 @@ section {
     height: 64px;
     background-color: #9a9a9a;
     color: white;
-    text-align: center;
 }
 
-nav li {
-    display: inline-block;
-    width: 25%;
+#navigation>ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
 
 nav a {
