@@ -245,7 +245,7 @@ details li {
 }
 
 #recipe #requested-recipe {
-    font-size: 100%;
+    font-size: 75%;
     margin: 16px 0 32px 64px;
 }
 
@@ -669,6 +669,11 @@ textarea {
     /* recipes */
     #recipe>div {
         margin: 32px 8px;
+    }
+
+    #recipe #requested-recipe {
+        text-align: right;
+        margin: 16px 8px 16px 0;
     }
 
     #recipe>#ingredients-grid {
