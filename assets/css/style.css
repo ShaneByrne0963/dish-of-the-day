@@ -395,7 +395,7 @@ details li {
     text-align: left;
 }
 
-#form-details>div {
+.bottom-spacing {
     padding-bottom: 32px;
 }
 
