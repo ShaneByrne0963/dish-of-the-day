@@ -399,7 +399,8 @@ details li {
     padding-bottom: 32px;
 }
 
-label {
+label,
+#form-details p {
     font-size: 80%;
 }
 
@@ -416,8 +417,7 @@ label {
 
 /* indenting the radio buttons */
 input[type="radio"] {
-    display: inline-block;
-    margin-left: 32px;
+    margin-left: 16px;
 }
 
 textarea {
