@@ -18,7 +18,11 @@ h1 {
 }
 
 h2 {
-    font-size: 260%;
+    font-size: 160%;
+}
+
+section {
+    font-size: 150%;
 }
 
 /* header */
@@ -96,11 +100,6 @@ nav a:hover {
     margin-top: 32px;
 }
 
-.page-description p,
-.page-description-reverse p {
-    font-size: 150%;
-}
-
 .description-text {
     width: 60%;
     padding: 160px 32px;
@@ -123,7 +122,6 @@ nav a:hover {
 
 #description-end {
     text-align: center;
-    font-size: 150%;
     width: 50%;
     margin: 64px auto;
 }
@@ -201,7 +199,7 @@ footer p {
 
 #daily-menu details {
     width: 100%;
-    font-size: 200%;
+    font-size: 125%;
     background-color: #9a9a9a;
     color: white;
     position: absolute;
@@ -214,7 +212,7 @@ footer p {
 }
 
 details>div {
-    height: 378px;
+    height: 380px;
 }
 
 #daily-menu a {
@@ -244,10 +242,6 @@ details li {
 
 #recipe>div {
     margin: 32px;
-}
-
-#recipe p {
-    font-size: 150%;
 }
 
 #recipe #requested-recipe {
@@ -308,11 +302,10 @@ details li {
 }
 
 #recipe h3 {
-    font-size: 180%;
+    font-size: 130%;
 }
 
 #recipe li {
-    font-size: 150%;
     margin: 16px 32px;
 }
 
@@ -375,17 +368,13 @@ details li {
 
 #recipe-end>p {
     margin-top: 16px;
-    font-size: 120%;
+    font-size: 80%;
 }
 
 /* recipe request */
 
 #recipe-request>div {
     margin: 32px;
-}
-
-#recipe-request p {
-    font-size: 150%;
 }
 
 #request-form {
@@ -413,17 +402,16 @@ details li {
 }
 
 label {
-    font-size: 150%;
     margin-top: 32px;
 }
 
 .small-text {
-    font-size: 100%;
+    font-size: 70%;
 }
 
 .input-text {
     width: 96%;
-    font-size: 120%;
+    font-size: 75%;
     font-family: Lato, sans-serif;
     padding: 8px 2%;
 }
@@ -505,7 +493,6 @@ textarea {
 }
 
 #thank-you p {
-    font-size: 150%;
     margin-bottom: 32px;
 }
 
