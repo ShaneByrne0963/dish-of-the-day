@@ -604,15 +604,12 @@ textarea {
 /* for small screen sizes */
 @media screen and (max-width: 800px) {
 
-    /* home page */
-    .page-description p,
-    .page-description-reverse p {
+    section {
         font-size: 120%;
     }
 
-    /* end of page description */
+    /* home page */
     #description-end {
-        font-size: 100%;
         width: auto;
         margin: 32px 8px;
     }
@@ -701,5 +698,9 @@ textarea {
 
     #recipe ol {
         padding: 0;
+    }
+
+    #recipe li {
+        margin: 8px 8px 8px 32px;
     }
 }
