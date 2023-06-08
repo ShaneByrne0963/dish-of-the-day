@@ -28,7 +28,6 @@ section {
 /* header */
 
 #title {
-    width: 100%;
     background-color: #9a9a9a;
     color: white;
 }
@@ -39,7 +38,6 @@ section {
 }
 
 #hero-image {
-    width: 100%;
     height: 192px;
     color: white;
     background-color: #9a9a9a;
@@ -54,7 +52,6 @@ section {
 /* navigation */
 
 #navigation {
-    width: 100%;
     height: 64px;
     background-color: #9a9a9a;
     color: white;
@@ -627,6 +624,30 @@ input[type="reset"] {
 
     section {
         font-size: 120%;
+    }
+
+    /* header */
+    h1 {
+        padding: 8px 0 0 8px;
+        font-size: 250%;
+    }
+
+    #title h3 {
+        font-size: 80%;
+        padding: 0 0 16px 32px;
+    }
+
+    #hero-image {
+        height: 128px;
+    }
+
+    #navigation {
+        height: 48px;
+    }
+
+    #navigation a {
+        font-size: 90%;
+        line-height: 48px;
     }
 
     /* home page */
