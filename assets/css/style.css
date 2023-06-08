@@ -43,6 +43,7 @@ section {
     background-color: #9a9a9a;
     /* hero image from shutterstock */
     background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #title h3 {
