@@ -681,4 +681,38 @@ textarea {
     details>div {
         height: 259px;
     }
+
+    /* recipes */
+    #recipe>div {
+        margin: 32px 8px;
+    }
+
+    #recipe>#ingredients-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 480px auto auto;
+        margin: 32px 0;
+    }
+
+    .ingredients-image {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #ingredients-grid>h3 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 32px 8px 0 8px;
+    }
+
+    .ingredients {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding-left: 8px;
+    }
+
+    #recipe ol {
+        padding: 0;
+    }
 }
