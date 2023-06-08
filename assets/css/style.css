@@ -377,13 +377,8 @@ details li {
     margin: 32px;
 }
 
-#request-form {
-    height: 480px;
-}
-
 #request-form>form {
     width: 80%;
-    height: 100%;
     background-color: #9a9a9a;
     /* to align to center of page */
     margin: 0 auto;
@@ -392,7 +387,6 @@ details li {
 }
 
 #form-details {
-    height: 320px;
     color: white;
     display: grid;
     grid-template-columns: 1fr 32px 1fr;
@@ -457,6 +451,7 @@ textarea {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    padding-bottom: 32px;
 }
 
 #form-feedback {
