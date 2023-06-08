@@ -715,4 +715,21 @@ textarea {
     #recipe li {
         margin: 8px 8px 8px 32px;
     }
+
+    /* recipe request form */
+    #recipe-request>div {
+        margin: 32px 8px;
+    }
+
+    #recipe-request>#request-form {
+        margin: 32px 0;
+    }
+
+    #request-form>form {
+        border-radius: 0;
+    }
+
+    #form-details {
+        padding: 32px 8px;
+    }
 }
