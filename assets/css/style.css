@@ -752,4 +752,22 @@ input[type="reset"] {
     #form-details {
         padding: 32px 8px;
     }
+
+    /* form submission/thank you page */
+    #thank-you {
+        margin: 32px 0;
+    }
+
+    #thank-you h2 {
+        padding: 0 8px;
+    }
+
+    #thank-you p {
+        padding: 0 8px;
+        margin-bottom: 32px;
+    }
+
+    #thanks-video>video {
+        width: 100%;
+    }
 }
