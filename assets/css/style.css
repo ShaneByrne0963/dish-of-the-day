@@ -620,7 +620,7 @@ input[type="reset"] {
     }
 }
 
-/* for small screen sizes */
+/* for small screen sizes and tablets */
 @media screen and (max-width: 800px) {
 
     section {
@@ -800,5 +800,34 @@ input[type="reset"] {
 
     #thanks-video>video {
         width: 100%;
+    }
+}
+
+/* for mobile devices */
+@media screen and (max-width: 600px) {
+
+    /* menu page */
+    #daily-menu {
+        margin: 16px 0 48px 0;
+    }
+
+    #daily-menu>div {
+        height: 240px;
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    details>div {
+        height: 194px;
+    }
+
+    .course-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .course-image>img {
+        height: auto;
     }
 }
