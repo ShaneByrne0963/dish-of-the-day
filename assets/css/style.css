@@ -187,13 +187,24 @@ footer p {
     height: 448px;
     margin: 128px 32px;
     background-color: #9a9a9a;
+    background-size: cover;
     position: relative;
 }
 
-.course-image {
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+#course-breakfast {
+    background: url("../images/course-breakfast.webp") no-repeat center left;
+}
+
+#course-lunch {
+    background: url("../images/recipe-soup.webp") no-repeat center center;
+}
+
+#course-dinner {
+    background: url("../images/course-dinner.webp") no-repeat center center;
+}
+
+#course-dessert {
+    background: url("../images/recipe-brownies.jpeg") no-repeat center center;
 }
 
 #daily-menu details {
@@ -222,10 +233,6 @@ details>div {
 #daily-menu a:hover {
     font-weight: bold;
     text-decoration: 2px underline;
-}
-
-.course-image {
-    height: 100%;
 }
 
 details ul {
@@ -819,15 +826,5 @@ input[type="reset"] {
 
     details>div {
         height: 194px;
-    }
-
-    .course-image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .course-image>img {
-        height: auto;
     }
 }
