@@ -702,11 +702,19 @@ input[type="reset"] {
     }
 
     #daily-menu details {
-        font-size: 150%;
+        font-size: 130%;
     }
 
     details>div {
-        height: 259px;
+        height: 274px;
+    }
+
+    details ul {
+        margin: 8px 8px 0 32px;
+    }
+
+    details li {
+        text-align: left;
     }
 
     /* recipes */
