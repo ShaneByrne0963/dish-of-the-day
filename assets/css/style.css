@@ -827,4 +827,14 @@ input[type="reset"] {
     details>div {
         height: 194px;
     }
+
+    /* recipe pages */
+    #recipe>#ingredients-grid,
+    #recipe>#ingredients-large-grid {
+        grid-template-rows: 320px auto auto;
+    }
+
+    #recipe li {
+        margin: 8px 8px 8px 16px;
+    }
 }
