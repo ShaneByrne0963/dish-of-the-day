@@ -845,5 +845,14 @@ input[type="reset"] {
     /* recipe request form */
     #form-details {
         display: block;
+        padding-bottom: 0;
+    }
+
+    #form-details>div {
+        padding-bottom: 32px;
+    }
+
+    #form-buttons-layer {
+        padding-top: 0;
     }
 }
