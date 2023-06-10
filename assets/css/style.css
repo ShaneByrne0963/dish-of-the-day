@@ -709,12 +709,12 @@ input[type="reset"] {
     }
 
     #daily-menu>h2 {
-        padding: 16px 8px;
+        padding: 32px 8px;
     }
 
     #daily-menu>div {
         height: 320px;
-        margin: 32px 16px;
+        margin: 0 16px 64px 16px;
     }
 
     #daily-menu details {
@@ -828,7 +828,11 @@ input[type="reset"] {
 
     /* menu page */
     #daily-menu {
-        margin: 16px 0 48px 0;
+        margin-bottom: 64px;
+    }
+
+    #daily-menu>h2 {
+        padding-bottom: 16px;
     }
 
     #daily-menu>div {
