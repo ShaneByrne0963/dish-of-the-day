@@ -27,9 +27,13 @@ section {
 
 /* header */
 
-#title {
+header {
     background-color: #555555;
+}
+
+#title {
     color: white;
+    display: inline-block;
 }
 
 #title>a {
@@ -40,7 +44,6 @@ section {
 #hero-image {
     height: 192px;
     color: white;
-    background-color: #555555;
     /* hero image from shutterstock */
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
@@ -54,7 +57,6 @@ section {
 
 #navigation {
     height: 64px;
-    background-color: #555555;
     color: white;
 }
 
