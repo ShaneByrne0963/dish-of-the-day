@@ -181,11 +181,16 @@ footer p {
     text-align: center;
 }
 
+#daily-menu>h2 {
+    text-align: left;
+    padding: 32px;
+}
+
 #daily-menu>div {
     display: inline-block;
     width: 20%;
     height: 448px;
-    margin: 128px 32px;
+    margin: 0 32px 128px 32px;
     background-color: #9a9a9a;
     background-size: cover;
     position: relative;
@@ -543,7 +548,7 @@ input[type="reset"] {
     /* menu */
     #daily-menu>div {
         width: 40%;
-        margin: 64px 32px;
+        margin: 0 32px 64px 32px;
     }
 }
 
@@ -701,6 +706,10 @@ input[type="reset"] {
     /* menu */
     #daily-menu {
         padding: 0;
+    }
+
+    #daily-menu>h2 {
+        padding: 16px 8px;
     }
 
     #daily-menu>div {
