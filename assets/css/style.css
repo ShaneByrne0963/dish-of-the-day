@@ -531,6 +531,10 @@ input[type="reset"] {
     text-align: center;
 }
 
+#thanks-video>video {
+    width: 75%;
+}
+
 /**** MEDIA QUERIES ****/
 
 /* for rearranging the grid cells for the large ingredients recipes */
