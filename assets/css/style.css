@@ -841,4 +841,9 @@ input[type="reset"] {
     #recipe li {
         margin: 8px 8px 8px 16px;
     }
+
+    /* recipe request form */
+    #form-details {
+        display: block;
+    }
 }
