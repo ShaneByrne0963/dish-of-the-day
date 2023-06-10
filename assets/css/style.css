@@ -388,6 +388,10 @@ details li {
     margin: 32px;
 }
 
+#recipe-request>#request-form {
+    margin-bottom: 64px;
+}
+
 #request-form>form {
     width: 80%;
     background-color: #9a9a9a;
@@ -796,7 +800,7 @@ input[type="reset"] {
     }
 
     #recipe-request>#request-form {
-        margin: 32px 0;
+        margin: 32px 0 64px 0;
     }
 
     #request-form>form {
