@@ -230,6 +230,7 @@ footer p {
 
 details>div {
     height: 380px;
+    padding-right: 32px;
 }
 
 #daily-menu a {
