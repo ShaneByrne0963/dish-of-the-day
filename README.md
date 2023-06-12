@@ -41,12 +41,16 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
   - The description is broken up into smaller blocks of text of only 1-2 sentences to make the text easier to read.
   - At the bottom of the page, the user is presented with a button to be taken to the menu page.
 
+![The home page](assets/images/readme/features/home.jpg)
+
 - **The Menu Page**
 
   - The menu page is the main focus of the site. The user is presented with 4 separate images representing the meal courses: breakfast, lunch, dinner and dessert.
   - Each image has a heading above it, which expands when clicked on to reveal 3 listed anchors, taking the user to a unique page for each one.
   - These anchors will remain the same every time the page is loaded, and will only refresh at the beginning of the next day.
   - The drop-down menus provide a more responsive experience to the user, while also reducing the amount of text displayed on the screen.
+
+![The menu page](assets/images/readme/features/menu.jpg)
 
 - **The Recipe Pages**
 
@@ -55,17 +59,23 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
   - In terms of HTML structure, all of these pages are exact copies of each other.
   - The steak sandwich is the one exception to the previous point. The ingredients list is spread horizontally as well as vertically, due to the large size of the ingredients list
 
+![The recipe page](assets/images/readme/features/recipe.jpg)
+
 - **The Inspire Us Page**
 
   - This page allows the user to request a recipe to be made for the website. The user will specify the name of the dish they want and what course it is typically served as.
   - The user is also given an option to give any feedback in relation to the site.
   - The user will be asked to fill out their full name and email address.
 
+![The inspire us page](assets/images/readme/features/inspire-us.jpg)
+
 - **The Thank You Page**
 
   - This is the page the user is taken to after submitting the form. It contains a short thank you paragraph and a short thank you video.
   - The paragraph assures the user that they will be contacted soon with the recipe they are looking for, and encourages them to continue using the menu until then.
   - The thank you video requires to be clicked on to play, encouraging more interaction from the user.
+
+![The thank you page](assets/images/readme/features/thank-you.jpg)
 
 ## Testing
 
