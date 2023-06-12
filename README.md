@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Dish of the Day is a website which aims to provide an option of recipes to the user that change every day, assisting the user with improving their day-to-day eating habits.
+Dish of the Day is a website which aims to provide an option of recipes to the user that change every day, assisting the user with improving their day-to-day eating habits. This site is aimed at people who wish to change the way they eat at home, but always find themselves stuck in the habit of making the same thing at home without experimenting with other types of food.
 
 ## Features
 
@@ -39,7 +39,7 @@ The website features several different webpages, with each one containing a cons
 
 ### The Thank You Page
 
-- This is the page the user is taken to
+- This is the page the user is taken to after submitting the form. It contains
 
 ## Testing
 
@@ -72,7 +72,45 @@ The website features several different webpages, with each one containing a cons
    - Solution: Using absolute position instead of float works best.
 
 7. For the form, one half lies significantly lower than the other half
+
    - Solution: Absolute positioning fixed this once again
+
+8. All the inputs in the form stack on top of each other
+
+   - Solution: The left and right leaning divs use absolute positioning. The closest parent that has it's position set to relative
+     is the outer form itself. Changing the individual layer's positions to relative should fix this. Also, Having everything
+     within a div use absolute positioning gives the div a size of 0.
+
+9. Cannot click on the dessert radio button because the div height exceeds the height of the form layer
+   - Solution: It seems setting an element's position to absolute removes it from the flow of the webpage, meaning it's size doesn't affect the size of it's parent. The solution I decided on was just to increase the padding for the parent div. It's not the most elegant solution, but everything works properly with this solution (resolved in the following bug fix)
+10. Positioning of form elements aren't aligned properly
+
+    - Solution: Change the form layout from using absolute positioning to grid
+
+11. There is no space between the two columns in the form grid
+
+    - Add a third column of 32 pixels in between the existing columns
+
+12. Image doesn't resize to fit the newly implemented grid
+
+    - Solution: Instead of using an img element, set the background image for the grid cell as the image
+
+13. All text in large ingredients recipe reside on one grid cell. This is because I'm setting both the columns and rows for
+    the lists at the same time
+
+    - Solution: Add another media query for min-width: 1201px and set the row position for the lists there. This will make it so either the columns or rows will be set but not both
+
+14. Images in index stretch across the page in media query max-width: 1200px
+
+    - Solution: Move the description-image class to the span of the image instead of the image itself. Then change the bounding box of the span and set the overflow to hidden
+
+15. Images in index are not aligned to the center in media query max-width: 1200px
+
+    - Solution: Use display: flex in the span for the image, and set the attributes align-items and justify-content to center
+
+16. Error in console: "Failed to load resource: the server responded with a status of 404 ()"
+
+    - Solution: Adding "<link rel="shortcut icon" href="#">" fixes this issue
 
 ### Manual Testing
 
