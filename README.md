@@ -37,7 +37,8 @@ On top of this, each page has a unique section situated in between the header an
 
 ### The Home Page
 
-- This is the page the user is first presented with upon entering the website.
+- This is the page the user is first presented with upon entering the website. It contains a short description of what the website does and what it's purpose is, accompanied by images of some of the finished recipes the website has to offer.
+- The description is broken up into smaller blocks of text of only 1-2 sentences to make the text easier to read
 
 ### The Menu Page
 
@@ -130,9 +131,9 @@ On top of this, each page has a unique section situated in between the header an
 
 ### Validator Testing
 
-- All .html pages have been passed through the W3C validator and contain no errors or issues
-- The style.css page has been passed through the Jigsaw W3C validator and contains no errors or issues
-- All foreground and background color combinations have been tested using webAIM and have all passed
+- All .html pages have been passed through the [W3C validator](https://validator.w3.org/) and contain no errors or issues
+- The style.css page has been passed through the [Jigsaw W3C](https://jigsaw.w3.org/css-validator/) validator and contains no errors or issues
+- All foreground and background color combinations have been tested using [WebAIM](https://webaim.org/resources/contrastchecker/) and have all passed
 
 ### Unfixed Bugs
 
