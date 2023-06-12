@@ -108,7 +108,7 @@ The website features several different webpages, with each one containing a cons
 
 16. Error in console: "Failed to load resource: the server responded with a status of 404 ()" ![Image demonstrating bug 16](assets/images/readme/bug-log/bug-16.jpg)
 
-    - Solution: Adding "<link rel="shortcut icon" href="#">" fixes this issue
+    - Solution: Adding `<link rel="shortcut icon" href="#">` fixes this issue
 
 ### Manual Testing
 
