@@ -45,70 +45,100 @@ The website features several different webpages, with each one containing a cons
 
 ### Bugs
 
-1. Image is supposed to be beside the first paragraph, but instead sits with the second paragraph
+1.  Image is supposed to be beside the first paragraph, but instead sits with the second paragraph
 
-   - Solution: Using the flexbox layout seemed to be the best fix for this issue. I set the display element of the parent div with id #page-description to flex and everything seemed to work as intended.
+    - ![Image demonstrating bug 1](assets/images/readme/bug-log/bug-01.jpg)
 
-2. Menu link button at the bottom of the index.html page overlaps with the elements surrounding it
+    - Solution: Using the flexbox layout seemed to be the best fix for this issue. I set the display element of the parent div with id #page-description to flex and everything seemed to work as intended.
 
-   - Solution: The margins weren't working because the anchor element is an inline element, so the box model couldn't be adjusted. Setting the display property of the #to-menu element to block fixed this issue
+2.  Menu link button at the bottom of the index.html page overlaps with the elements surrounding it
 
-3. Setting the overflow to hidden on the course button hid the overflow of the images successfully, but will not allow anything else to display outside the div, such as the collapsible menu underneath.
+    - ![Image demonstrating bug 2](assets/images/readme/bug-log/bug-02.jpg)
 
-   - Solution: Create another div within this div, and set the overflow attribute of the inner div to hidden instead.
+    - Solution: The margins weren't working because the anchor element is an inline element, so the box model couldn't be adjusted. Setting the display property of the #to-menu element to block fixed this issue
 
-4. New dropdown menus don't align properly with their corresponding course button, and they take up 100% of the screen
+3.  Setting the overflow to hidden on the course button hid the overflow of the images successfully, but will not allow anything else to display outside the div, such as the collapsible menu underneath.
 
-   - Solution: Simple human error. The detail elements' position attributes were set to absolute. However I forgot that when I
-     added the inner div I removed the relative position of the outer div, positioning the details elements in relation to
-     the page instead of the div
+    - ![Image demonstrating bug 3](assets/images/readme/bug-log/bug-03.jpg)
 
-5. All text in dropdown menu turns bold when hovered over instead of just the clickable part
+    - Solution: Create another div within this div, and set the overflow attribute of the inner div to hidden instead.
 
-   - Solution: Change #daily-menu details:hover to #daily-menu summary:hover
+4.  New dropdown menus don't align properly with their corresponding course button, and they take up 100% of the screen
 
-6. Floating image overflows into the footer in recipe page. Div only shapes itself to the list
+    - ![Image demonstrating bug 4](assets/images/readme/bug-log/bug-04.jpg)
 
-   - Solution: Using absolute position instead of float works best.
+    - Solution: Simple human error. The detail elements' position attributes were set to absolute. However I forgot that when I added the inner div I removed the relative position of the outer div, positioning the details elements in relation to the page instead of the div
 
-7. For the form, one half lies significantly lower than the other half
+5.  All text in dropdown menu turns bold when hovered over instead of just the clickable part
 
-   - Solution: Absolute positioning fixed this once again
+    - ![Image demonstrating bug 5](assets/images/readme/bug-log/bug-05.jpg)
 
-8. All the inputs in the form stack on top of each other
+    - Solution: Change #daily-menu details:hover to #daily-menu summary:hover
 
-   - Solution: The left and right leaning divs use absolute positioning. The closest parent that has it's position set to relative
-     is the outer form itself. Changing the individual layer's positions to relative should fix this. Also, Having everything
-     within a div use absolute positioning gives the div a size of 0.
+6.  Floating image overflows into the footer in recipe page. Div only shapes itself to the list
 
-9. Cannot click on the dessert radio button because the div height exceeds the height of the form layer
-   - Solution: It seems setting an element's position to absolute removes it from the flow of the webpage, meaning it's size doesn't affect the size of it's parent. The solution I decided on was just to increase the padding for the parent div. It's not the most elegant solution, but everything works properly with this solution (resolved in the following bug fix)
+    - ![Image demonstrating bug 6](assets/images/readme/bug-log/bug-06.jpg)
+
+    - Solution: Using absolute position instead of float works best.
+
+7.  For the form, one half lies significantly lower than the other half
+
+    - ![Image demonstrating bug 7](assets/images/readme/bug-log/bug-07.jpg)
+
+    - Solution: Absolute positioning fixed this once again
+
+8.  All the inputs in the form stack on top of each other
+
+    - ![Image demonstrating bug 8](assets/images/readme/bug-log/bug-08.jpg)
+
+    - Solution: The left and right leaning divs use absolute positioning. The closest parent that has it's position set to relative is the outer form itself. Changing the individual layer's positions to relative should fix this. Also, Having everything within a div use absolute positioning gives the div a size of 0.
+
+9.  Cannot click on the dessert radio button because the div height exceeds the height of the form layer
+
+    - ![Image demonstrating bug 9](assets/images/readme/bug-log/bug-09.jpg)
+
+    - Solution: It seems setting an element's position to absolute removes it from the flow of the webpage, meaning it's size doesn't affect the size of it's parent. The solution I decided on was just to increase the padding for the parent div. It's not the most elegant solution, but everything works properly with this solution (resolved in the following bug fix)
+
 10. Positioning of form elements aren't aligned properly
+
+    - ![Image demonstrating bug 10](assets/images/readme/bug-log/bug-10.jpg)
 
     - Solution: Change the form layout from using absolute positioning to grid
 
 11. There is no space between the two columns in the form grid
 
-    - Add a third column of 32 pixels in between the existing columns
+    - ![Image demonstrating bug 11](assets/images/readme/bug-log/bug-11.jpg)
+
+    - Solution: Add a third column of 32 pixels in between the existing columns
 
 12. Image doesn't resize to fit the newly implemented grid
+
+    - ![Image demonstrating bug 12](assets/images/readme/bug-log/bug-12.jpg)
 
     - Solution: Instead of using an img element, set the background image for the grid cell as the image
 
 13. All text in large ingredients recipe reside on one grid cell. This is because I'm setting both the columns and rows for
     the lists at the same time
 
+    - ![Image demonstrating bug 13](assets/images/readme/bug-log/bug-13.jpg)
+
     - Solution: Add another media query for min-width: 1201px and set the row position for the lists there. This will make it so either the columns or rows will be set but not both
 
 14. Images in index stretch across the page in media query max-width: 1200px
+
+    - ![Image demonstrating bug 14](assets/images/readme/bug-log/bug-14.jpg)
 
     - Solution: Move the description-image class to the span of the image instead of the image itself. Then change the bounding box of the span and set the overflow to hidden
 
 15. Images in index are not aligned to the center in media query max-width: 1200px
 
+    - ![Image demonstrating bug 15](assets/images/readme/bug-log/bug-15.jpg)
+
     - Solution: Use display: flex in the span for the image, and set the attributes align-items and justify-content to center
 
 16. Error in console: "Failed to load resource: the server responded with a status of 404 ()"
+
+    - ![Image demonstrating bug 16](assets/images/readme/bug-log/bug-16.jpg)
 
     - Solution: Adding "<link rel="shortcut icon" href="#">" fixes this issue
 
