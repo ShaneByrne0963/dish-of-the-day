@@ -1,39 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dish of the Day
 
-Welcome,
+## What is it?
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Dish of the Day is a website which aims to provide an option of recipes to the user that change every day, assisting the user with improving their day-to-day eating habits.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Features
 
-## Codeanywhere Reminders
+The website features several different webpages, with each one containing a consistent user interface, made up of the following:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### The Header
 
-`python3 -m http.server`
+- The header is a banner situated on top of the webpages consisting of the site name, a slogan that states the purpose of the site
+  and a banner image.
+- The name and slogan state that the website's main purpose is in relation to cooking.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### The Navigation
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Situated at the bottom of the header, the navigation consists of three links to separate internal webpages: Home, Menu and Inspire Us
+- The Home link takes the user to the main page, so it is positioned to the left of the navigation bar
+- The Menu link takes the user to the menu of the day page, so it is situated to the right of the Home link
+- The Inspire Us link takes the user to the recipe request form, which is the least important of the three pages, so it is positioned to the right of the navigation bar
 
-`http_server`
+### The Footer
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The Home Page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- This is the page the user is first presented with upon entering the website.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### The Menu Page
 
-To log into the Heroku toolbelt CLI:
+### The Recipe Pages
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- There are 12 separate recipe pages. Each page consists of an introduction, an image of the finished product, an unordered ingredients list and an ordered method list.
+- Some pages also have a recipe credits line if the recipe was requested by a user through the recipe request form.
+- In terms of HTML structure, all of these pages are exact copies of each other, with the exception of the steak sandwich page,
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### The Inspire Us Page
 
----
+### The Thank You Page
 
-Happy coding!
+- This is the page the user is taken to
+
+## Testing
+
+### Bugs
+
+1. Image is supposed to be beside the first paragraph, but instead sits with the second paragraph
+
+   - Solution: Using the flexbox layout seemed to be the best fix for this issue. I set the display element of the parent div with id #page-description to flex and everything seemed to work as intended.
+
+2. Menu link button at the bottom of the index.html page overlaps with the elements surrounding it
+
+   - Solution: The margins weren't working because the anchor element is an inline element, so the box model couldn't be adjusted. Setting the display property of the #to-menu element to block fixed this issue
+
+3. Setting the overflow to hidden on the course button hid the overflow of the images successfully, but will not allow anything else to display outside the div, such as the collapsible menu underneath.
+
+   - Solution: Create another div within this div, and set the overflow attribute of the inner div to hidden instead.
+
+4. New dropdown menus don't align properly with their corresponding course button, and they take up 100% of the screen
+
+   - Solution: Simple human error. The detail elements' position attributes were set to absolute. However I forgot that when I
+     added the inner div I removed the relative position of the outer div, positioning the details elements in relation to
+     the page instead of the div
+
+5. All text in dropdown menu turns bold when hovered over instead of just the clickable part
+
+   - Solution: Change #daily-menu details:hover to #daily-menu summary:hover
+
+6. Floating image overflows into the footer in recipe page. Div only shapes itself to the list
+
+   - Solution: Using absolute position instead of float works best.
+
+7. For the form, one half lies significantly lower than the other half
+   - Solution: Absolute positioning fixed this once again
+
+### Manual Testing
+
+- Every input in the recipe request form has been tested.
+- Every link, internal and external, has been clicked on every page and each one works as intended.
+- Every page has been tested for responsive screen width, with
+
+### Validator Testing
+
+- All .html pages have been passed through the W3C validator and contain no errors or issues
+- The style.css page has been passed through the Jigsaw W3C validator and contains no errors or issues
+- All foreground and background color combinations have been tested using webAIM and have all passed
+
+### Unfixed Bugs
+
+No unfixed bugs.
+
+## Deployment and Local Development
+
+### Deploy on Github Pages
+
+- The site has been successfully uploaded to GitHub Pages and can be visited [here](https://shanebyrne0963.github.io/dish-of-the-day/).
+
+### Cloning Repositories
+
+### Forking Repositories
+
+## Credits
+
+### Content
+
+- [Flexbox Tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Grid Tutorial](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Solution to Bug #2](https://forum.freecodecamp.org/t/why-margin-doesnt-work/346366/2)
+- [Solution to Bug #15](https://blog.hubspot.com/website/center-an-image-in-html#:~:text=In%20your%20CSS%20code%2C%20find,the%20div%20vertically%20and%20horizontally.)
+- [Solution to Bug #16](https://stackoverflow.com/questions/39149846/why-am-i-seeing-a-404-not-found-error-failed-to-load-favicon-ico-when-not-usin)
+
+### Media
+
+- Hero image was taken from [Shutterstock](https://shutterstock.com)
+- Images for B.L.T and Tuna Melt were taken from [Delish](https://delish.com)
+- Image for Bolognese was taken from [Our Table For Seven](https://ourtableforseven.com)
+- All other images were taken from [Pexels](https://pexels.com)
+- Thank You video was taken from [Envato](https://envato.com)
