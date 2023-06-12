@@ -14,7 +14,7 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
     and a banner image.
   - This is the first piece of information presented to the user upon entering the site. The header introduces the user with a bright colorful image relating to the website's theme of cooking.
 
-![The header of each page](assets/images/readme/features/header.jpg)
+![The header for each page](assets/images/readme/features/header.jpg)
 
 - **The Navigation**
 
@@ -24,14 +24,14 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
   - The Inspire Us link takes the user to the recipe request form, which is the least important of the three pages, so it is positioned to the right of the navigation bar.
   - The links are spaced out adequately within the navigation bar to reduce misclicking.
 
-![The header of each page](assets/images/readme/features/navigation.jpg)
+![The navigation bar for each page](assets/images/readme/features/navigation.jpg)
 
 - **The Footer**
 
   - The footer is the banner that is situated at the bottom of each webpage. It is made up of the social media links and a copyright disclaimer.
   - The social media links are opened in a new tab, so it is best to keep these at the bottom of the page where the user will have experienced all of the page's content.
 
-![The header of each page](assets/images/readme/features/footer.jpg)
+![The footer for each page](assets/images/readme/features/footer.jpg)
 
 ### Unique Features
 
