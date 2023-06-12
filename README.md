@@ -6,7 +6,7 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
 
 ## Features
 
-The website features several different webpages, with each one containing a consistent user interface, made up of the following:
+The website features several different webpages, with each one containing an identical header, navigation and footer:
 
 ### The Header
 
@@ -20,8 +20,14 @@ The website features several different webpages, with each one containing a cons
 - The Home link takes the user to the main page, so it is positioned to the left of the navigation bar
 - The Menu link takes the user to the menu of the day page, so it is situated to the right of the Home link
 - The Inspire Us link takes the user to the recipe request form, which is the least important of the three pages, so it is positioned to the right of the navigation bar
+- The links are spaced out adequately within the navigation bar to reduce misclicking
 
 ### The Footer
+
+- The footer is the banner that is situated at the bottom of each webpage. It is made up the social media links and a copyright disclaimer
+- The social media links are opened in a new tab, so it is best to keep these at the bottom of the page where the user will have experienced all of the page's content
+
+On top of this, each page has a unique section situated in between the header and footer, which contains the main content for the website, consisting of the following:
 
 ### The Home Page
 
