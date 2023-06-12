@@ -6,106 +6,106 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
 
 ## Features
 
-The website features several different webpages, with each one containing an identical header, navigation and footer:
+### Consistent Features
 
-### The Header
+- **The Header**
+
+  - The header is a banner situated on top of the webpages consisting of the site name, a slogan that states the purpose of the site
+    and a banner image.
+  - This is the first piece of information presented to the user upon entering the site. The header introduces the user with a bright colorful image relating to the website's theme of cooking.
 
 ![The header of each page](assets/images/readme/features/header.jpg)
 
-- The header is a banner situated on top of the webpages consisting of the site name, a slogan that states the purpose of the site
-  and a banner image.
-- This is the first piece of information presented to the user upon entering the site. The header introduces the user with a bright colorful image relating to the website's theme of food.
+- **The Navigation**
 
-### The Navigation
+  - Situated at the bottom of the header, the navigation consists of three links to separate internal webpages: Home, Menu and Inspire Us.
+  - The Home link takes the user to the main page, so it is positioned to the left of the navigation bar.
+  - The Menu link takes the user to the menu of the day page, so it is situated to the right of the Home link.
+  - The Inspire Us link takes the user to the recipe request form, which is the least important of the three pages, so it is positioned to the right of the navigation bar.
+  - The links are spaced out adequately within the navigation bar to reduce misclicking.
 
 ![The header of each page](assets/images/readme/features/navigation.jpg)
 
-- Situated at the bottom of the header, the navigation consists of three links to separate internal webpages: Home, Menu and Inspire Us.
-- The Home link takes the user to the main page, so it is positioned to the left of the navigation bar.
-- The Menu link takes the user to the menu of the day page, so it is situated to the right of the Home link.
-- The Inspire Us link takes the user to the recipe request form, which is the least important of the three pages, so it is positioned to the right of the navigation bar.
-- The links are spaced out adequately within the navigation bar to reduce misclicking.
+- **The Footer**
 
-### The Footer
+  - The footer is the banner that is situated at the bottom of each webpage. It is made up of the social media links and a copyright disclaimer.
+  - The social media links are opened in a new tab, so it is best to keep these at the bottom of the page where the user will have experienced all of the page's content.
 
 ![The header of each page](assets/images/readme/features/footer.jpg)
 
-- The footer is the banner that is situated at the bottom of each webpage. It is made up of the social media links and a copyright disclaimer.
-- The social media links are opened in a new tab, so it is best to keep these at the bottom of the page where the user will have experienced all of the page's content.
+### Unique Features
 
-On top of this, each page has a unique section situated in between the header and footer, which contains the main content for the website, consisting of the following:
+- **The Home Page**
 
-### The Home Page
+  - This is the page the user is first presented with upon entering the website. It contains a short description of what the website does and what it's purpose is, accompanied by images of some of the finished recipes the website has to offer.
+  - The description is broken up into smaller blocks of text of only 1-2 sentences to make the text easier to read.
+  - At the bottom of the page, the user is presented with a button to be taken to the menu page.
 
-- This is the page the user is first presented with upon entering the website. It contains a short description of what the website does and what it's purpose is, accompanied by images of some of the finished recipes the website has to offer.
-- The description is broken up into smaller blocks of text of only 1-2 sentences to make the text easier to read.
-- At the bottom of the page, the user is presented with a button to be taken to the menu page.
+- **The Menu Page**
 
-### The Menu Page
+  - The menu page is the main focus of the site. The user is presented with 4 separate images representing the meal courses: breakfast, lunch, dinner and dessert.
+  - Each image has a heading above it, which expands when clicked on to reveal 3 listed anchors, taking the user to a unique page for each one.
+  - These anchors will remain the same every time the page is loaded, and will only refresh at the beginning of the next day.
+  - The drop-down menus provide a more responsive experience to the user, while also reducing the amount of text displayed on the screen.
 
-- The menu page is the main focus of the site. The user is presented with 4 separate images representing the meal courses: breakfast, lunch, dinner and dessert.
-- Each image has a heading above it, which expands when clicked on to reveal 3 listed anchors, taking the user to a unique page for each one.
-- These anchors will remain the same every time the page is loaded, and will only refresh at the beginning of the next day.
-- The drop-down menus provide a more responsive experience to the user, while also reducing the amount of text displayed on the screen.
+- **The Recipe Pages**
 
-### The Recipe Pages
+  - There are 12 separate recipe pages. Each page consists of an introduction, an image of the finished product, an unordered ingredients list and an ordered method list.
+  - Some pages also have a recipe credits line if the recipe was requested by a user through the recipe request form.
+  - In terms of HTML structure, all of these pages are exact copies of each other.
+  - The steak sandwich is the one exception to the previous point. The ingredients list is spread horizontally as well as vertically, due to the large size of the ingredients list
 
-- There are 12 separate recipe pages. Each page consists of an introduction, an image of the finished product, an unordered ingredients list and an ordered method list.
-- Some pages also have a recipe credits line if the recipe was requested by a user through the recipe request form.
-- In terms of HTML structure, all of these pages are exact copies of each other.
-- The steak sandwich is the one exception to the previous point. The ingredients list is spread horizontally as well as vertically, due to the large size of the ingredients list
+- **The Inspire Us Page**
 
-### The Inspire Us Page
+  - This page allows the user to request a recipe to be made for the website. The user will specify the name of the dish they want and what course it is typically served as.
+  - The user is also given an option to give any feedback in relation to the site.
+  - The user will be asked to fill out their full name and email address.
 
-- This page allows the user to request a recipe to be made for the website. The user will specify the name of the dish they want and what course it is typically served as.
-- The user is also given an option to give any feedback in relation to the site.
-- The user will be asked to fill out their full name and email address.
+- **The Thank You Page**
 
-### The Thank You Page
-
-- This is the page the user is taken to after submitting the form. It contains a short thank you paragraph and a short thank you video.
-- The paragraph assures the user that they will be contacted soon with the recipe they are looking for, and encourages them to continue using the menu until then.
-- The thank you video requires to be clicked on to play, encouraging more interaction from the user.
+  - This is the page the user is taken to after submitting the form. It contains a short thank you paragraph and a short thank you video.
+  - The paragraph assures the user that they will be contacted soon with the recipe they are looking for, and encourages them to continue using the menu until then.
+  - The thank you video requires to be clicked on to play, encouraging more interaction from the user.
 
 ## Testing
 
 ### Bugs
 
-1.  Image is supposed to be beside the first paragraph, but instead sits with the second paragraph ![Image demonstrating bug 1](assets/images/readme/bug-log/bug-01.jpg)
+1. Image is supposed to be beside the first paragraph, but instead sits with the second paragraph ![Image demonstrating bug 1](assets/images/readme/bug-log/bug-01.jpg)
 
-    - Solution: Using the flexbox layout seemed to be the best fix for this issue. I set the display element of the parent div with id #page-description to flex and everything seemed to work as intended.
+   - Solution: Using the flexbox layout seemed to be the best fix for this issue. I set the display element of the parent div with id #page-description to flex and everything seemed to work as intended.
 
-2.  Menu link button at the bottom of the index.html page overlaps with the elements surrounding it ![Image demonstrating bug 2](assets/images/readme/bug-log/bug-02.jpg)
+2. Menu link button at the bottom of the index.html page overlaps with the elements surrounding it ![Image demonstrating bug 2](assets/images/readme/bug-log/bug-02.jpg)
 
-    - Solution: The margins weren't working because the anchor element is an inline element, so the box model couldn't be adjusted. Setting the display property of the #to-menu element to block fixed this issue
+   - Solution: The margins weren't working because the anchor element is an inline element, so the box model couldn't be adjusted. Setting the display property of the #to-menu element to block fixed this issue
 
-3.  Setting the overflow to hidden on the course button hid the overflow of the images successfully, but will not allow anything else to display outside the div, such as the collapsible menu underneath. ![Image demonstrating bug 3](assets/images/readme/bug-log/bug-03.jpg)
+3. Setting the overflow to hidden on the course button hid the overflow of the images successfully, but will not allow anything else to display outside the div, such as the collapsible menu underneath. ![Image demonstrating bug 3](assets/images/readme/bug-log/bug-03.jpg)
 
-    - Solution: Create another div within this div, and set the overflow attribute of the inner div to hidden instead.
+   - Solution: Create another div within this div, and set the overflow attribute of the inner div to hidden instead.
 
-4.  New dropdown menus don't align properly with their corresponding course button, and they take up 100% of the screen ![Image demonstrating bug 4](assets/images/readme/bug-log/bug-04.jpg)
+4. New dropdown menus don't align properly with their corresponding course button, and they take up 100% of the screen ![Image demonstrating bug 4](assets/images/readme/bug-log/bug-04.jpg)
 
-    - Solution: Simple human error. The detail elements' position attributes were set to absolute. However I forgot that when I added the inner div I removed the relative position of the outer div, positioning the details elements in relation to the page instead of the div
+   - Solution: Simple human error. The detail elements' position attributes were set to absolute. However I forgot that when I added the inner div I removed the relative position of the outer div, positioning the details elements in relation to the page instead of the div
 
-5.  All text in dropdown menu turns bold when hovered over instead of just the clickable part ![Image demonstrating bug 5](assets/images/readme/bug-log/bug-05.jpg)
+5. All text in dropdown menu turns bold when hovered over instead of just the clickable part ![Image demonstrating bug 5](assets/images/readme/bug-log/bug-05.jpg)
 
-    - Solution: Change #daily-menu details:hover to #daily-menu summary:hover
+   - Solution: Change #daily-menu details:hover to #daily-menu summary:hover
 
-6.  Floating image overflows into the footer in recipe page. Div only shapes itself to the list ![Image demonstrating bug 6](assets/images/readme/bug-log/bug-06.jpg)
+6. Floating image overflows into the footer in recipe page. Div only shapes itself to the list ![Image demonstrating bug 6](assets/images/readme/bug-log/bug-06.jpg)
 
-    - Solution: Using absolute position instead of float works best.
+   - Solution: Using absolute position instead of float works best.
 
-7.  For the form, one half lies significantly lower than the other half ![Image demonstrating bug 7](assets/images/readme/bug-log/bug-07.jpg)
+7. For the form, one half lies significantly lower than the other half ![Image demonstrating bug 7](assets/images/readme/bug-log/bug-07.jpg)
 
-    - Solution: Absolute positioning fixed this once again
+   - Solution: Absolute positioning fixed this once again
 
-8.  All the inputs in the form stack on top of each other ![Image demonstrating bug 8](assets/images/readme/bug-log/bug-08.jpg)
+8. All the inputs in the form stack on top of each other ![Image demonstrating bug 8](assets/images/readme/bug-log/bug-08.jpg)
 
-    - Solution: The left and right leaning divs use absolute positioning. The closest parent that has it's position set to relative is the outer form itself. Changing the individual layer's positions to relative should fix this. Also, Having everything within a div use absolute positioning gives the div a size of 0.
+   - Solution: The left and right leaning divs use absolute positioning. The closest parent that has it's position set to relative is the outer form itself. Changing the individual layer's positions to relative should fix this. Also, Having everything within a div use absolute positioning gives the div a size of 0.
 
-9.  Cannot click on the dessert radio button because the div height exceeds the height of the form layer ![Image demonstrating bug 9](assets/images/readme/bug-log/bug-09.jpg)
+9. Cannot click on the dessert radio button because the div height exceeds the height of the form layer ![Image demonstrating bug 9](assets/images/readme/bug-log/bug-09.jpg)
 
-    - Solution: It seems setting an element's position to absolute removes it from the flow of the webpage, meaning it's size doesn't affect the size of it's parent. The solution I decided on was just to increase the padding for the parent div. It's not the most elegant solution, but everything works properly with this solution (resolved in the following bug fix)
+   - Solution: It seems setting an element's position to absolute removes it from the flow of the webpage, meaning it's size doesn't affect the size of it's parent. The solution I decided on was just to increase the padding for the parent div. It's not the most elegant solution, but everything works properly with this solution (resolved in the following bug fix)
 
 10. Positioning of form elements aren't aligned properly ![Image demonstrating bug 10](assets/images/readme/bug-log/bug-10.jpg)
 
