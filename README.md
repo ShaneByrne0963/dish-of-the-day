@@ -10,11 +10,15 @@ The website features several different webpages, with each one containing an ide
 
 ### The Header
 
+![The header of each page](assets/images/readme/features/header.jpg)
+
 - The header is a banner situated on top of the webpages consisting of the site name, a slogan that states the purpose of the site
   and a banner image.
 - The name and slogan state that the website's main purpose is in relation to cooking.
 
 ### The Navigation
+
+![The header of each page](assets/images/readme/features/navigation.jpg)
 
 - Situated at the bottom of the header, the navigation consists of three links to separate internal webpages: Home, Menu and Inspire Us
 - The Home link takes the user to the main page, so it is positioned to the left of the navigation bar
@@ -23,6 +27,8 @@ The website features several different webpages, with each one containing an ide
 - The links are spaced out adequately within the navigation bar to reduce misclicking
 
 ### The Footer
+
+![The header of each page](assets/images/readme/features/footer.jpg)
 
 - The footer is the banner that is situated at the bottom of each webpage. It is made up the social media links and a copyright disclaimer
 - The social media links are opened in a new tab, so it is best to keep these at the bottom of the page where the user will have experienced all of the page's content
