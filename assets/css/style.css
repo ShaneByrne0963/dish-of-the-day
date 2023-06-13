@@ -260,7 +260,7 @@ details li {
 /* recipe introduction */
 
 #recipe>div {
-    margin: 32px;
+    margin: 32px 0;
 }
 
 #recipe #requested-recipe {
@@ -600,7 +600,8 @@ input[type="reset"] {
         grid-template-columns: 2fr 0 5fr 0;
     }
 
-    #recipe ul {
+    #recipe ul,
+    #recipe ol {
         padding-left: 0;
     }
 
@@ -667,7 +668,7 @@ input[type="reset"] {
     /* home page */
     #description-end {
         width: auto;
-        margin: 32px 8px;
+        margin: 32px 0;
     }
 
     #description-end>h3,
@@ -731,12 +732,12 @@ input[type="reset"] {
 
     /* recipes */
     #recipe>div {
-        margin: 32px 8px;
+        margin: 32px 0;
     }
 
     #recipe #requested-recipe {
         text-align: right;
-        margin: 16px 8px 16px 0;
+        margin: 16px 0;
     }
 
     #recipe>#ingredients-grid,
@@ -758,25 +759,21 @@ input[type="reset"] {
     #ingredients-large-grid>h3 {
         grid-row-start: 2;
         grid-row-end: 3;
-        padding: 32px 8px 0 8px;
+        padding-top: 32px;
     }
 
     .ingredients {
         grid-row-start: 3;
         grid-row-end: 4;
-        padding-left: 8px;
     }
 
     .ingredients-divided p {
         margin-top: 16px;
     }
 
-    .ingredients-divided {
-        padding-left: 8px;
-    }
-
+    #recipe ul,
     #recipe ol {
-        padding: 0;
+        padding: 0 16px;
     }
 
     #recipe li {
