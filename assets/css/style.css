@@ -527,11 +527,7 @@ input[type="reset"] {
 
 /* thank you page after form submission */
 
-#thank-you {
-    margin: 32px;
-}
-
-#thank-you p {
+.thank-you {
     margin-bottom: 32px;
 }
 
@@ -802,19 +798,6 @@ input[type="reset"] {
     }
 
     /* form submission/thank you page */
-    #thank-you {
-        margin: 32px 0;
-    }
-
-    #thank-you h2 {
-        padding: 0 8px;
-    }
-
-    #thank-you p {
-        padding: 0 8px;
-        margin-bottom: 32px;
-    }
-
     #thanks-video>video {
         width: 100%;
     }
@@ -826,10 +809,6 @@ input[type="reset"] {
     /* menu page */
     #daily-menu {
         margin-bottom: 64px;
-    }
-
-    #daily-menu>h2 {
-        padding-bottom: 16px;
     }
 
     #daily-menu>div {
