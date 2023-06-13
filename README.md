@@ -4,13 +4,23 @@
 
 Dish of the Day is a website which aims to provide an option of recipes to the user that change every day, assisting the user with improving their day-to-day eating habits. This site is aimed at people who wish to change the way they eat at home, but always find themselves stuck in the habit of making the same thing at home without experimenting with other types of food.
 
+The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
+
 ![Dish of the Day displayed on different devices](assets/images/readme/site-display.jpg)
 
 ## UI/UX Design
 
 ### Color Scheme
 
-## Typography
+- The site is broken down into two color schemes:
+  - **White text on gray background** - The header, navigation, footer, course buttons and form use this color scheme.
+  - **Black text on white background** - All other instances use this color scheme.
+- The color scheme is kept simple to avoid overpowering the images used in the site.
+
+### Typography
+
+- The site uses a single font, Lato, to maintain font style consistency.
+- If a certain browser does not support this font, a sans-serif font will be used in it's place.
 
 ### Wireframes
 
