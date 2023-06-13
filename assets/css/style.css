@@ -191,14 +191,13 @@ footer p {
 
 #daily-menu>h2 {
     text-align: left;
-    padding: 32px;
 }
 
 #daily-menu>div {
     display: inline-block;
     width: 20%;
     height: 448px;
-    margin: 0 32px 128px 32px;
+    margin: 32px 32px 128px 32px;
     background-color: #555555;
     background-size: cover;
     position: relative;
@@ -565,7 +564,7 @@ input[type="reset"] {
     /* menu */
     #daily-menu>div {
         width: 40%;
-        margin: 0 32px 64px 32px;
+        margin: 32px 32px 64px 32px;
     }
 }
 
@@ -717,13 +716,9 @@ input[type="reset"] {
         padding: 0;
     }
 
-    #daily-menu>h2 {
-        padding: 32px 8px;
-    }
-
     #daily-menu>div {
         height: 320px;
-        margin: 0 16px 64px 16px;
+        margin: 32px 16px 64px 16px;
     }
 
     #daily-menu details {
