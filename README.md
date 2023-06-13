@@ -24,6 +24,30 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
 
 ### Wireframes
 
+- For desktop screen sizes:
+  - index.html
+    - ![Desktop wireframe for index.html](assets/images/readme/wireframes/desktop-index.jpg)
+  - menu.html
+    - ![Desktop wireframe for menu.html](assets/images/readme/wireframes/desktop-menu.jpg)
+  - Recipe pages
+    - ![Desktop wireframe for recipe pages](assets/images/readme/wireframes/desktop-recipe.jpg)
+  - Recipe pages with large ingredients list
+    - ![Desktop wireframe for large recipe pages](assets/images/readme/wireframes/desktop-recipe-large.jpg)
+  - request-recipe.html
+    - ![Desktop wireframe for request-recipe.html](assets/images/readme/wireframes/desktop-feedback.jpg)
+- For tablet screen sizes:
+  - menu.html
+    - ![Tablet wireframe for menu.html](assets/images/readme/wireframes/tablet-menu.jpg)
+- For mobile screen sizes:
+  - index.html
+    - ![Mobile wireframe for index.html](assets/images/readme/wireframes/mobile-index.jpg)
+  - menu.html
+    - ![Mobile wireframe for menu.html](assets/images/readme/wireframes/mobile-menu.jpg)
+  - Recipe pages
+    - ![Mobile wireframe for recipe pages](assets/images/readme/wireframes/mobile-recipe.jpg)
+  - recipe-request.html
+    - ![Mobile wireframe for recipe-request.html](assets/images/readme/wireframes/mobile-feedback.jpg)
+
 ## Features
 
 ### User Interface
