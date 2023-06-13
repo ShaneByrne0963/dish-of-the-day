@@ -180,9 +180,9 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
   - Only one radio button can be selected for the recipe course, and the form will fail to send if none of them are selected.
   - If the user clicks the submit button and any of these requirements are not met, the user will be given feedback for what needs to be done to complete the form successfully.
 
-![Text input warning](assets/images/readme/testing/text-validation.jpg)
+![Text input warning](assets/images/readme/testing/input-text.jpg)
 
-![Email input warning](assets/images/readme/testing/email-validation.jpg)
+![Email input warning](assets/images/readme/testing/input-email.jpg)
 
 - **Anchors**
   - Every link, internal and external, has been clicked on every page and each one works as intended.
@@ -192,9 +192,10 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
 
 ### Validator Testing
 
-- All .html pages have been passed through the [W3C validator](https://validator.w3.org/) and contain no errors or issues
-- The style.css page has been passed through the [Jigsaw W3C](https://jigsaw.w3.org/css-validator/) validator and contains no errors or issues
-- All foreground and background color combinations have been tested using [WebAIM](https://webaim.org/resources/contrastchecker/) and have all passed
+- All .html pages have been passed through the [W3C validator](https://validator.w3.org/) and contain no errors or issues ![W3C Validator for index.html](assets/images/readme/testing/w3c-index.jpg)
+- The style.css page has been passed through the [Jigsaw W3C](https://jigsaw.w3.org/css-validator/) validator and contains no errors or issues. ![W3C Validator for style.css](assets/images/readme/testing/w3c-css.jpg)
+- All foreground and background color combinations have been tested using [WebAIM](https://webaim.org/resources/contrastchecker/) and have all passed. ![WebAIM contrast checker for main content](assets/images/readme/testing/contrast-normal.png)
+- All pages have been tested for accessibility using Chrome's lighthouse feature in devtools and I confirmed that the font and text color is easily readable. ![Lighthouse test for index.html](assets/images/readme/testing/lighthouse-index.png)
 
 ### Unfixed Bugs
 
