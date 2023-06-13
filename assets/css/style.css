@@ -771,11 +771,6 @@ input[type="reset"] {
         margin-top: 16px;
     }
 
-    #recipe ul,
-    #recipe ol {
-        padding: 0 16px;
-    }
-
     #recipe li {
         margin: 8px 8px 8px 32px;
     }
@@ -822,10 +817,6 @@ input[type="reset"] {
     #recipe>#ingredients-grid,
     #recipe>#ingredients-large-grid {
         grid-template-rows: 320px auto auto;
-    }
-
-    #recipe li {
-        margin: 8px 8px 8px 16px;
     }
 
     /* recipe request form */

@@ -4,6 +4,8 @@
 
 Dish of the Day is a website which aims to provide an option of recipes to the user that change every day, assisting the user with improving their day-to-day eating habits. This site is aimed at people who wish to change the way they eat at home, but always find themselves stuck in the habit of making the same thing at home without experimenting with other types of food.
 
+![Dish of the Day displayed on different devices](assets/images/readme/site-display.jpg)
+
 ## UI/UX Design
 
 ### Color Scheme
@@ -14,7 +16,7 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
 
 ## Features
 
-### Consistent Features
+### User Interface
 
 - **The Header**
 
@@ -41,7 +43,7 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
 
 ![The footer for each page](assets/images/readme/features/footer.jpg)
 
-### Unique Features
+### Content
 
 - **The Home Page**
 
