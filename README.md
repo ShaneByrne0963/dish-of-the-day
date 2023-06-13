@@ -4,6 +4,14 @@
 
 Dish of the Day is a website which aims to provide an option of recipes to the user that change every day, assisting the user with improving their day-to-day eating habits. This site is aimed at people who wish to change the way they eat at home, but always find themselves stuck in the habit of making the same thing at home without experimenting with other types of food.
 
+## UI/UX Design
+
+### Color Scheme
+
+## Typography
+
+### Wireframes
+
 ## Features
 
 ### Consistent Features
@@ -169,6 +177,8 @@ No unfixed bugs.
 - The site has been successfully uploaded to GitHub Pages and can be visited [here](https://shanebyrne0963.github.io/dish-of-the-day/).
 
 ### Cloning Repositories
+
+git clone <https://github.com/ShaneByrne0963/dish-of-the-day.git>
 
 ### Forking Repositories
 
