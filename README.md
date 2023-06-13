@@ -174,9 +174,16 @@ Dish of the Day is a website which aims to provide an option of recipes to the u
 
 ### Manual Testing
 
-- Every input in the recipe request form has been tested.
-- Every link, internal and external, has been clicked on every page and each one works as intended.
-- Every page has been tested for responsive screen width, with
+- **Form Input Validation**
+  - First name, last name, email address and recipe name are required in the form and the form will not submit until those fields are filled out.
+  - Email address must be valid and the form will not submit until one is given.
+  - Only one radio button can be selected for the recipe course, and the form will fail to send if none of them are selected.
+  - If the user clicks the submit button and any of these requirements are not met, the user will be given feedback for what needs to be done to complete the form successfully
+- **Anchors**
+  - Every link, internal and external, has been clicked on every page and each one works as intended.
+  - All external pages are opened in a new tab
+- **Media Queries**
+  - Every page has been tested for responsive screen width, with nothing breaking above a screen width of 320px
 
 ### Validator Testing
 
