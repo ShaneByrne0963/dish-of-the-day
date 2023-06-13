@@ -204,7 +204,12 @@ No unfixed bugs.
 
 ### Deploy on Github Pages
 
-- The site has been successfully uploaded to GitHub Pages and can be visited [here](https://shanebyrne0963.github.io/dish-of-the-day/).
+- The site has been successfully deployed to GitHub Pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab.
+  - In the Pages tab, from the source drop-down menu, select "Deploy from a branch".
+  - Under the Branch heading, ensure the first drop-down menu has "main" selected and click the "Save" button to the right of it.
+  - Wait a few minutes and refresh the page. The link will appear under the GitHub Pages heading.
+- The live site can be visited [here](https://shanebyrne0963.github.io/dish-of-the-day/).
 
 ### Cloning Repositories
 
