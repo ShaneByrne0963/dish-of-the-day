@@ -392,10 +392,6 @@ details li {
 
 /* recipe request */
 
-#recipe-request>div {
-    margin: 32px;
-}
-
 #recipe-request>#request-form {
     margin-bottom: 64px;
 }
@@ -404,7 +400,7 @@ details li {
     width: 80%;
     background-color: #444444;
     /* to align to center of page */
-    margin: 0 auto;
+    margin: 32px auto;
     border-radius: 16px;
     text-align: center;
 }
@@ -792,9 +788,6 @@ input[type="reset"] {
     }
 
     /* recipe request form */
-    #recipe-request>div {
-        margin: 32px 8px;
-    }
 
     #recipe-request>#request-form {
         margin: 32px 0 64px 0;
