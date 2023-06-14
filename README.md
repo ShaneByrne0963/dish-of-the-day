@@ -85,7 +85,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - The description is broken up into smaller blocks of text of only 1-2 sentences to make the text easier to read.
   - At the bottom of the page, the user is presented with a button to be taken to the menu page.
 
-![The home page](assets/images/readme/features/home.jpg)
+![The home page](assets/images/readme/features/index.jpg)
 
 - **The Menu Page**
 
