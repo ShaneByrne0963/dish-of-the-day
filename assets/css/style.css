@@ -87,14 +87,14 @@ nav a:hover {
 
 .page-description {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 32px 2fr;
     height: 480px;
     margin: 32px 0;
 }
 
 .page-description-reverse {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 32px 3fr;
     height: 480px;
     margin-top: 32px;
 }
@@ -104,8 +104,8 @@ nav a:hover {
 }
 
 #description-image-1 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     background: url("../images/recipe-pancakes.jpeg") no-repeat center center;
     background-size: cover;
 }
@@ -118,8 +118,8 @@ nav a:hover {
 }
 
 #description-image-3 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     background: url("../images/page-desc-3.webp") no-repeat center center;
     background-size: cover;
 }
@@ -129,8 +129,8 @@ nav a:hover {
 }
 
 .right-about {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     text-align: right;
 }
 
