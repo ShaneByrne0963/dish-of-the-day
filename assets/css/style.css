@@ -86,35 +86,42 @@ nav a:hover {
 /* description of site */
 
 .page-description {
-    display: flex;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
     height: 480px;
-    text-align: center;
     margin: 32px 0;
 }
 
 .page-description-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     height: 480px;
-    text-align: center;
     margin-top: 32px;
 }
 
 .description-text {
-    width: 60%;
     padding: 160px 0;
 }
 
-.page-description img {
-    height: 100%;
-    margin-left: 32px;
+#description-image-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: url("../images/recipe-pancakes.jpeg") no-repeat center center;
+    background-size: cover;
 }
 
-.page-description-reverse img {
-    height: 100%;
-    margin-right: 32px;
+#description-image-2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: url("../images/page-desc-2.webp") no-repeat center center;
+    background-size: cover;
+}
+
+#description-image-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: url("../images/page-desc-3.webp") no-repeat center center;
+    background-size: cover;
 }
 
 .left-about {
@@ -122,6 +129,8 @@ nav a:hover {
 }
 
 .right-about {
+    grid-column-start: 2;
+    grid-column-end: 3;
     text-align: right;
 }
 
