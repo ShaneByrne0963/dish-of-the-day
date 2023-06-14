@@ -104,7 +104,6 @@ nav a:hover {
 }
 
 .description-image {
-
     /* 
         Source of the following code:
         https://blog.hubspot.com/website/center-an-image-in-html#:~:text=In%20your%20CSS%20code%2C%20find,the%20div%20vertically%20and%20horizontally.
@@ -209,7 +208,7 @@ footer p {
     display: inline-block;
     width: 20%;
     height: 448px;
-    margin: 32px 32px 128px 32px;
+    margin: 32px 16px 128px 16px;
     background-color: #555555;
     background-size: cover;
     position: relative;
