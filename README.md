@@ -287,6 +287,7 @@ No unfixed bugs.
 - [Solution to Bug #2](https://forum.freecodecamp.org/t/why-margin-doesnt-work/346366/2)
 - [Solution to Bug #15](https://blog.hubspot.com/website/center-an-image-in-html#:~:text=In%20your%20CSS%20code%2C%20find,the%20div%20vertically%20and%20horizontally.)
 - [Solution to Bug #16](https://stackoverflow.com/questions/39149846/why-am-i-seeing-a-404-not-found-error-failed-to-load-favicon-ico-when-not-usin)
+- [Cookie recipe text](https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/)
 
 ### Media
 
