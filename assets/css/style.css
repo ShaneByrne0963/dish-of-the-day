@@ -87,14 +87,14 @@ nav a:hover {
 
 .page-description {
     display: grid;
-    grid-template-columns: 3fr 32px 2fr;
+    grid-template-columns: 1fr 32px 1fr;
     height: 480px;
     margin: 32px 0;
 }
 
 .page-description-reverse {
     display: grid;
-    grid-template-columns: 2fr 32px 3fr;
+    grid-template-columns: 1fr 32px 1fr;
     height: 480px;
     margin-top: 32px;
 }
@@ -103,7 +103,25 @@ nav a:hover {
     padding: 160px 0;
 }
 
-#description-image-1 {
+.description-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 480px;
+    overflow: hidden;
+}
+
+.page-description>.description-image {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.page-description-reverse>.description-image {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* #description-image-1 {
     grid-column-start: 3;
     grid-column-end: 4;
     background: url("../images/recipe-pancakes.jpeg") no-repeat center center;
@@ -123,6 +141,11 @@ nav a:hover {
     background: url("../images/page-desc-3.webp") no-repeat center center;
     background-size: cover;
 }
+
+.page-description img,
+.page-description-reverse img {
+    display: none;
+}*/
 
 .left-about {
     text-align: left;
@@ -589,14 +612,6 @@ input[type="reset"] {
         margin: 32px 0;
         width: 100%;
         text-align: left;
-    }
-
-    .description-image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-height: 480px;
-        overflow: hidden;
     }
 
     .description-image>img {
