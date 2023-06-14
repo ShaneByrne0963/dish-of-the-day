@@ -121,32 +121,6 @@ nav a:hover {
     grid-row-end: 2;
 }
 
-/* #description-image-1 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background: url("../images/recipe-pancakes.jpeg") no-repeat center center;
-    background-size: cover;
-}
-
-#description-image-2 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background: url("../images/page-desc-2.webp") no-repeat center center;
-    background-size: cover;
-}
-
-#description-image-3 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background: url("../images/page-desc-3.webp") no-repeat center center;
-    background-size: cover;
-}
-
-.page-description img,
-.page-description-reverse img {
-    display: none;
-}*/
-
 .left-about {
     text-align: left;
 }
@@ -573,9 +547,15 @@ input[type="reset"] {
 
 /**** MEDIA QUERIES ****/
 
-/* for rearranging the grid cells for the large ingredients recipes */
+/* for desktop screen sizes */
 @media screen and (min-width: 1201px) {
 
+    /* home page */
+    .description-image>img {
+        height: 100%;
+    }
+
+    /* for rearranging the grid cells for the large ingredients recipes */
     .ingredients-divided {
         grid-row-start: 2;
         grid-row-end: 3;
