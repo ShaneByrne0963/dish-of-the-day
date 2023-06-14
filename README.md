@@ -56,13 +56,14 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
 
   - The header is a banner situated on top of the webpages consisting of the site name, a slogan that states the purpose of the site
     and a banner image.
-  - This is the first piece of information presented to the user upon entering the site. The header introduces the user with a bright colorful image relating to the website's theme of cooking.
+  - This is the first piece of information presented to the user upon entering the site, so it is the user's first impression of the site. The header introduces the user with a bright colorful image relating to the website's theme of cooking.
 
 ![The header for each page](assets/images/readme/features/header.jpg)
 
 - **The Navigation**
 
   - Situated at the bottom of the header, the navigation consists of three links to separate internal webpages: Home, Menu and Inspire Us.
+  - This segment is vital for quick and easy navigation throughout the website.
   - The Home link takes the user to the main page, so it is positioned to the left of the navigation bar.
   - The Menu link takes the user to the menu of the day page, so it is situated to the right of the Home link.
   - The Inspire Us link takes the user to the recipe request form, which is the least important of the three pages, so it is positioned to the right of the navigation bar.
@@ -74,6 +75,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
 
   - The footer is the banner that is situated at the bottom of each webpage. It is made up of the social media links and a copyright disclaimer.
   - The social media links are opened in a new tab, so it is best to keep these at the bottom of the page where the user will have experienced all of the page's content.
+  - The footer is the main routefor the user to keep in touch with the websire's social media posts.
 
 ![The footer for each page](assets/images/readme/features/footer.jpg)
 
@@ -84,6 +86,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - This is the page the user is first presented with upon entering the website. It contains a short description of what the website does and what it's purpose is, accompanied by images of some of the finished recipes the website has to offer.
   - The description is broken up into smaller blocks of text of only 1-2 sentences to make the text easier to read.
   - At the bottom of the page, the user is presented with a button to be taken to the menu page.
+  - This page explains how the website works to first time users, and familiar users can use the navigation to go to the menu if they do not wish to read it.
 
 ![The home page](assets/images/readme/features/index.jpg)
 
@@ -92,7 +95,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - The menu page is the main focus of the site. The user is presented with 4 separate images representing the meal courses: breakfast, lunch, dinner and dessert.
   - Each image has a heading above it, which expands when clicked on to reveal 3 listed anchors, taking the user to a unique page for each one.
   - These anchors will remain the same every time the page is loaded, and will only refresh at the beginning of the next day.
-  - The drop-down menus provide a more responsive experience to the user, while also reducing the amount of text displayed on the screen.
+  - The drop-down menus provide a clean, easy to use user interface to navigate through the different recipes, while minimizing the amount of text on the screen.
 
 ![The menu page](assets/images/readme/features/menu.jpg)
 
@@ -102,6 +105,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - Some pages also have a recipe credits line if the recipe was requested by a user through the recipe request form.
   - In terms of HTML structure, all of these pages are exact copies of each other.
   - The steak sandwich is the one exception to the previous point. The ingredients list is spread horizontally as well as vertically, due to the large size of the ingredients list
+  - These recipe pages provide the ingredients needed and the cooking process of the dish the user clicked on in the menu.
 
 ![The recipe page](assets/images/readme/features/recipe.jpg)
 
@@ -110,6 +114,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - This page allows the user to request a recipe to be made for the website. The user will specify the name of the dish they want and what course it is typically served as.
   - The user is also given an option to give any feedback in relation to the site.
   - The user will be asked to fill out their full name and email address.
+  - This page encourages the user to be engaging with the site, and provides valuable information to the site on how to add more recipes to their database.
 
 ![The inspire us page](assets/images/readme/features/inspire-us.jpg)
 
@@ -118,6 +123,7 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - This is the page the user is taken to after submitting the form. It contains a short thank you paragraph and a short thank you video.
   - The paragraph assures the user that they will be contacted soon with the recipe they are looking for, and encourages them to continue using the menu until then.
   - The thank you video requires to be clicked on to play, encouraging more interaction from the user.
+  - This page's main purpose is to give feedback to the user, alerting them that they have submitted the form successfully.
 
 ![The thank you page](assets/images/readme/features/thank-you.jpg)
 
@@ -206,6 +212,11 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
     - Expected result: No errors in console
     - Solution: Adding `<link rel="shortcut icon" href="#">` fixes this issue
 
+17. Flexbox display in index.html expanding divs containing images in FireFox
+
+    - Expected result: FireFox should display the website the same as other browsers
+    - Solution: The grid display has shown no issues in other browsers, so I changed the display from flex to grid
+
 ### Manual Testing
 
 - **Form Input Validation**
@@ -222,7 +233,9 @@ The site can be found here: <https://shanebyrne0963.github.io/dish-of-the-day/>
   - Every link, internal and external, has been clicked on every page and each one works as intended.
   - All external pages are opened in a new tab.
 - **Media Queries**
-  - Every page has been tested for responsive screen width, with nothing breaking above a screen width of 320px.
+  - Every page has been tested for responsive screen width, with nothing overflowing or overlapping above a screen width of 320px.
+- **Other Browsers**
+  - I have tested this site on Google Chrome, Microsoft Edge and Mozilla Firefox and confirmed the site works as intended on those platforms
 
 ### Validator Testing
 
